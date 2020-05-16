@@ -72,60 +72,71 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
         csgo = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
+        jLabel34 = new javax.swing.JLabel();
         pubeg = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jButton7 = new javax.swing.JButton();
+        jLabel35 = new javax.swing.JLabel();
         theforest = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jButton8 = new javax.swing.JButton();
-        Rust = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
-        jButton9 = new javax.swing.JButton();
+        jLabel36 = new javax.swing.JLabel();
         firewatch = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jButton10 = new javax.swing.JButton();
+        jLabel37 = new javax.swing.JLabel();
         LIS = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jButton11 = new javax.swing.JButton();
+        jLabel38 = new javax.swing.JLabel();
         mark = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jButton12 = new javax.swing.JButton();
+        jLabel39 = new javax.swing.JLabel();
         Bedrock = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
         jButton13 = new javax.swing.JButton();
+        jLabel40 = new javax.swing.JLabel();
         pes = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jButton14 = new javax.swing.JButton();
+        jLabel41 = new javax.swing.JLabel();
         fifa = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jButton15 = new javax.swing.JButton();
+        jLabel42 = new javax.swing.JLabel();
         valorant = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         jButton16 = new javax.swing.JButton();
+        jLabel43 = new javax.swing.JLabel();
         silent = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         jButton17 = new javax.swing.JButton();
+        jLabel44 = new javax.swing.JLabel();
         planet = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jButton18 = new javax.swing.JButton();
+        jLabel45 = new javax.swing.JLabel();
         cs16 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jButton19 = new javax.swing.JButton();
+        jLabel46 = new javax.swing.JLabel();
         hl = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         jButton20 = new javax.swing.JButton();
-        portal = new javax.swing.JPanel();
-        jLabel23 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
+        jLabel47 = new javax.swing.JLabel();
         paper = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
         jButton22 = new javax.swing.JButton();
+        jLabel48 = new javax.swing.JLabel();
         terraria = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jButton23 = new javax.swing.JButton();
+        jLabel49 = new javax.swing.JLabel();
         machinarium = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jButton24 = new javax.swing.JButton();
+        jLabel50 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -347,16 +358,13 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
         minecraftjavaLayout.setHorizontalGroup(
             minecraftjavaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(minecraftjavaLayout.createSequentialGroup()
-                .addGroup(minecraftjavaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(minecraftjavaLayout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(minecraftjavaLayout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel5)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+            .addGroup(minecraftjavaLayout.createSequentialGroup()
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                .addComponent(jLabel5))
         );
         minecraftjavaLayout.setVerticalGroup(
             minecraftjavaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -392,9 +400,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap())
             .addGroup(gtavLayout.createSequentialGroup()
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel27)
-                .addGap(0, 73, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                .addComponent(jLabel27))
         );
         gtavLayout.setVerticalGroup(
             gtavLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -411,7 +418,7 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/rdr2.png"))); // NOI18N
 
-        jButton5.setText("Other Games");
+        jButton5.setText("Game Lain");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -425,14 +432,12 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
         rdr2Layout.setHorizontalGroup(
             rdr2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rdr2Layout.createSequentialGroup()
-                .addContainerGap(422, Short.MAX_VALUE)
-                .addGroup(rdr2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rdr2Layout.createSequentialGroup()
-                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rdr2Layout.createSequentialGroup()
-                        .addComponent(jLabel28)
-                        .addGap(49, 49, 49))))
+                .addContainerGap(737, Short.MAX_VALUE)
+                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rdr2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel28))
             .addGroup(rdr2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(rdr2Layout.createSequentialGroup()
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 333, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -453,7 +458,7 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
 
         recpanel.add(rdr2, "card4");
 
-        jLabel7.setText("csgo");
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/csgo.png"))); // NOI18N
 
         jButton6.setText("Game Lain");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -462,36 +467,44 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
             }
         });
 
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekscsgo.png"))); // NOI18N
+
         javax.swing.GroupLayout csgoLayout = new javax.swing.GroupLayout(csgo);
         csgo.setLayout(csgoLayout);
         csgoLayout.setHorizontalGroup(
             csgoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(csgoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 385, Short.MAX_VALUE)
+                .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+            .addGroup(csgoLayout.createSequentialGroup()
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel34))
         );
         csgoLayout.setVerticalGroup(
             csgoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, csgoLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(csgoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel34))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
         recpanel.add(csgo, "card5");
 
-        jLabel9.setText("pubg");
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/pubg.png"))); // NOI18N
 
-        jButton7.setText("Other Games");
+        jButton7.setText("Game Lain");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
+
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekspubg.png"))); // NOI18N
 
         javax.swing.GroupLayout pubegLayout = new javax.swing.GroupLayout(pubeg);
         pubeg.setLayout(pubegLayout);
@@ -501,28 +514,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(pubegLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(pubegLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel9)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(pubegLayout.createSequentialGroup()
+                .addComponent(jLabel9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel35))
         );
         pubegLayout.setVerticalGroup(
             pubegLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pubegLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(pubegLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9)
+                    .addComponent(jLabel35))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(pubegLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(pubegLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel9)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(pubeg, "card6");
 
-        jLabel10.setText("the forest");
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksforest.png"))); // NOI18N
 
         jButton8.setText("Game Lain");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -531,74 +541,35 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
             }
         });
 
+        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/forest.png"))); // NOI18N
+
         javax.swing.GroupLayout theforestLayout = new javax.swing.GroupLayout(theforest);
         theforest.setLayout(theforestLayout);
         theforestLayout.setHorizontalGroup(
             theforestLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, theforestLayout.createSequentialGroup()
-                .addContainerGap(737, Short.MAX_VALUE)
+            .addGroup(theforestLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(theforestLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(theforestLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel10)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, theforestLayout.createSequentialGroup()
+                .addComponent(jLabel36)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                .addComponent(jLabel10))
         );
         theforestLayout.setVerticalGroup(
             theforestLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, theforestLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(theforestLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel36)
+                    .addComponent(jLabel10))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(theforestLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(theforestLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel10)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(theforest, "card7");
 
-        jLabel11.setText("rust");
-
-        jButton9.setText("Game Lain");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout RustLayout = new javax.swing.GroupLayout(Rust);
-        Rust.setLayout(RustLayout);
-        RustLayout.setHorizontalGroup(
-            RustLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RustLayout.createSequentialGroup()
-                .addContainerGap(737, Short.MAX_VALUE)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(RustLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(RustLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel11)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-        );
-        RustLayout.setVerticalGroup(
-            RustLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RustLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(RustLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(RustLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel11)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-        );
-
-        recpanel.add(Rust, "card8");
-
-        jLabel12.setText("firewatch");
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/fire.png"))); // NOI18N
 
         jButton10.setText("Game Lain");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -606,6 +577,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton10ActionPerformed(evt);
             }
         });
+
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksfire.png"))); // NOI18N
 
         javax.swing.GroupLayout firewatchLayout = new javax.swing.GroupLayout(firewatch);
         firewatch.setLayout(firewatchLayout);
@@ -615,28 +588,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(firewatchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(firewatchLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel12)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(firewatchLayout.createSequentialGroup()
+                .addComponent(jLabel12)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel37))
         );
         firewatchLayout.setVerticalGroup(
             firewatchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, firewatchLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(firewatchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel12)
+                    .addComponent(jLabel37))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(firewatchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(firewatchLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel12)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(firewatch, "card9");
 
-        jLabel13.setText("life is strange");
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/lis.png"))); // NOI18N
 
         jButton11.setText("Game Lain");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -645,32 +615,35 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
             }
         });
 
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekslis.png"))); // NOI18N
+
         javax.swing.GroupLayout LISLayout = new javax.swing.GroupLayout(LIS);
         LIS.setLayout(LISLayout);
         LISLayout.setHorizontalGroup(
             LISLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(LISLayout.createSequentialGroup()
-                .addGap(0, 392, Short.MAX_VALUE)
-                .addComponent(jLabel13)
-                .addGap(0, 393, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, LISLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+            .addGroup(LISLayout.createSequentialGroup()
+                .addComponent(jLabel13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel38))
         );
         LISLayout.setVerticalGroup(
             LISLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(LISLayout.createSequentialGroup()
-                .addGap(0, 164, Short.MAX_VALUE)
-                .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 117, Short.MAX_VALUE)
+                .addGroup(LISLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel13)
+                    .addComponent(jLabel38))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
         recpanel.add(LIS, "card10");
 
-        jLabel14.setText("mark of the ninja");
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/mark.png"))); // NOI18N
 
         jButton12.setText("Game Lain");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -678,6 +651,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton12ActionPerformed(evt);
             }
         });
+
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksmark.png"))); // NOI18N
 
         javax.swing.GroupLayout markLayout = new javax.swing.GroupLayout(mark);
         mark.setLayout(markLayout);
@@ -687,28 +662,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(markLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(markLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel14)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(markLayout.createSequentialGroup()
+                .addComponent(jLabel14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel39))
         );
         markLayout.setVerticalGroup(
             markLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, markLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(markLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel14)
+                    .addComponent(jLabel39))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(markLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(markLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel14)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(mark, "card11");
 
-        jLabel15.setText("bedrock");
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/Minecraft.png"))); // NOI18N
 
         jButton13.setText("Game Lain");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -716,6 +688,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton13ActionPerformed(evt);
             }
         });
+
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksbedrock.png"))); // NOI18N
 
         javax.swing.GroupLayout BedrockLayout = new javax.swing.GroupLayout(Bedrock);
         Bedrock.setLayout(BedrockLayout);
@@ -725,28 +699,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(BedrockLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(BedrockLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel15)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(BedrockLayout.createSequentialGroup()
+                .addComponent(jLabel15)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel40))
         );
         BedrockLayout.setVerticalGroup(
             BedrockLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BedrockLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(BedrockLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel15)
+                    .addComponent(jLabel40))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(BedrockLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(BedrockLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel15)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(Bedrock, "card12");
 
-        jLabel16.setText("pes");
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/pes.png"))); // NOI18N
 
         jButton14.setText("Game Lain");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -754,6 +725,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton14ActionPerformed(evt);
             }
         });
+
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekspes.png"))); // NOI18N
 
         javax.swing.GroupLayout pesLayout = new javax.swing.GroupLayout(pes);
         pes.setLayout(pesLayout);
@@ -763,28 +736,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(pesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(pesLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel16)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(pesLayout.createSequentialGroup()
+                .addComponent(jLabel16)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel41))
         );
         pesLayout.setVerticalGroup(
             pesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pesLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(pesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel16)
+                    .addComponent(jLabel41))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(pesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(pesLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel16)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(pes, "card13");
 
-        jLabel17.setText("fifa");
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/fifa.png"))); // NOI18N
 
         jButton15.setText("Game Lain");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -792,6 +762,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton15ActionPerformed(evt);
             }
         });
+
+        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksfifa.png"))); // NOI18N
 
         javax.swing.GroupLayout fifaLayout = new javax.swing.GroupLayout(fifa);
         fifa.setLayout(fifaLayout);
@@ -801,28 +773,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(fifaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(fifaLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel17)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(fifaLayout.createSequentialGroup()
+                .addComponent(jLabel17)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel42))
         );
         fifaLayout.setVerticalGroup(
             fifaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fifaLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(fifaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel17)
+                    .addComponent(jLabel42))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(fifaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(fifaLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel17)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(fifa, "card14");
 
-        jLabel18.setText("valorant");
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/val.png"))); // NOI18N
 
         jButton16.setText("Game Lain");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -830,6 +799,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton16ActionPerformed(evt);
             }
         });
+
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksval.png"))); // NOI18N
 
         javax.swing.GroupLayout valorantLayout = new javax.swing.GroupLayout(valorant);
         valorant.setLayout(valorantLayout);
@@ -839,28 +810,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(valorantLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(valorantLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel18)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(valorantLayout.createSequentialGroup()
+                .addComponent(jLabel18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel43))
         );
         valorantLayout.setVerticalGroup(
             valorantLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, valorantLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(valorantLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel18)
+                    .addComponent(jLabel43))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(valorantLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(valorantLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel18)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(valorant, "card15");
 
-        jLabel19.setText("silent age");
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/age.png"))); // NOI18N
 
         jButton17.setText("Game Lain");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -868,6 +836,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton17ActionPerformed(evt);
             }
         });
+
+        jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksage.png"))); // NOI18N
 
         javax.swing.GroupLayout silentLayout = new javax.swing.GroupLayout(silent);
         silent.setLayout(silentLayout);
@@ -877,28 +847,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(silentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(silentLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel19)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(silentLayout.createSequentialGroup()
+                .addComponent(jLabel19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel44))
         );
         silentLayout.setVerticalGroup(
             silentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, silentLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(silentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel19)
+                    .addComponent(jLabel44))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(silentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(silentLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel19)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(silent, "card16");
 
-        jLabel20.setText("lifeless planet");
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/planet.png"))); // NOI18N
 
         jButton18.setText("Game Lain");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -906,6 +873,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton18ActionPerformed(evt);
             }
         });
+
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksplanet.png"))); // NOI18N
 
         javax.swing.GroupLayout planetLayout = new javax.swing.GroupLayout(planet);
         planet.setLayout(planetLayout);
@@ -915,28 +884,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(planetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(planetLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel20)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(planetLayout.createSequentialGroup()
+                .addComponent(jLabel20)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel45))
         );
         planetLayout.setVerticalGroup(
             planetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, planetLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(planetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel20)
+                    .addComponent(jLabel45))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(planetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(planetLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel20)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(planet, "card17");
 
-        jLabel21.setText("cs 16");
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/cs.png"))); // NOI18N
 
         jButton19.setText("Game Lain");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -944,6 +910,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton19ActionPerformed(evt);
             }
         });
+
+        jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekscs.png"))); // NOI18N
 
         javax.swing.GroupLayout cs16Layout = new javax.swing.GroupLayout(cs16);
         cs16.setLayout(cs16Layout);
@@ -953,28 +921,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(cs16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(cs16Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel21)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(cs16Layout.createSequentialGroup()
+                .addComponent(jLabel21)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel46))
         );
         cs16Layout.setVerticalGroup(
             cs16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cs16Layout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(cs16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel21)
+                    .addComponent(jLabel46))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(cs16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(cs16Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel21)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(cs16, "card18");
 
-        jLabel22.setText("half life");
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/hl.png"))); // NOI18N
 
         jButton20.setText("Game Lain");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
@@ -982,6 +947,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton20ActionPerformed(evt);
             }
         });
+
+        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekshl.png"))); // NOI18N
 
         javax.swing.GroupLayout hlLayout = new javax.swing.GroupLayout(hl);
         hl.setLayout(hlLayout);
@@ -991,66 +958,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(hlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(hlLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel22)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(hlLayout.createSequentialGroup()
+                .addComponent(jLabel22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel47))
         );
         hlLayout.setVerticalGroup(
             hlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, hlLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(hlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel22)
+                    .addComponent(jLabel47))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton20, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(hlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(hlLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel22)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(hl, "card19");
 
-        jLabel23.setText("portal");
-
-        jButton21.setText("Game Lain");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout portalLayout = new javax.swing.GroupLayout(portal);
-        portal.setLayout(portalLayout);
-        portalLayout.setHorizontalGroup(
-            portalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, portalLayout.createSequentialGroup()
-                .addContainerGap(737, Short.MAX_VALUE)
-                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(portalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(portalLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel23)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-        );
-        portalLayout.setVerticalGroup(
-            portalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, portalLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
-                .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(portalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(portalLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel23)
-                    .addGap(0, 0, Short.MAX_VALUE)))
-        );
-
-        recpanel.add(portal, "card20");
-
-        jLabel24.setText("paper please");
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/paper.png"))); // NOI18N
 
         jButton22.setText("Game Lain");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
@@ -1058,6 +984,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton22ActionPerformed(evt);
             }
         });
+
+        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekspaper.png"))); // NOI18N
 
         javax.swing.GroupLayout paperLayout = new javax.swing.GroupLayout(paper);
         paper.setLayout(paperLayout);
@@ -1067,28 +995,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(paperLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(paperLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel24)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(paperLayout.createSequentialGroup()
+                .addComponent(jLabel24)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel48))
         );
         paperLayout.setVerticalGroup(
             paperLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, paperLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(paperLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel24)
+                    .addComponent(jLabel48))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton22, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(paperLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(paperLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel24)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(paper, "card21");
 
-        jLabel25.setText("teraria");
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/pvz.png"))); // NOI18N
 
         jButton23.setText("Game Lain");
         jButton23.addActionListener(new java.awt.event.ActionListener() {
@@ -1096,6 +1021,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton23ActionPerformed(evt);
             }
         });
+
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/tekspvz.png"))); // NOI18N
 
         javax.swing.GroupLayout terrariaLayout = new javax.swing.GroupLayout(terraria);
         terraria.setLayout(terrariaLayout);
@@ -1105,28 +1032,25 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(terrariaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(terrariaLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel25)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(terrariaLayout.createSequentialGroup()
+                .addComponent(jLabel25)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel49))
         );
         terrariaLayout.setVerticalGroup(
             terrariaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, terrariaLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(terrariaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel25)
+                    .addComponent(jLabel49))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(terrariaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(terrariaLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel25)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(terraria, "card22");
 
-        jLabel26.setText("Machinarium");
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/machin.png"))); // NOI18N
 
         jButton24.setText("Other Games");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
@@ -1134,6 +1058,8 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 jButton24ActionPerformed(evt);
             }
         });
+
+        jLabel50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/potatopc/teksmachin.png"))); // NOI18N
 
         javax.swing.GroupLayout machinariumLayout = new javax.swing.GroupLayout(machinarium);
         machinarium.setLayout(machinariumLayout);
@@ -1143,23 +1069,20 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
                 .addContainerGap(737, Short.MAX_VALUE)
                 .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(machinariumLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(machinariumLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel26)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(machinariumLayout.createSequentialGroup()
+                .addComponent(jLabel26)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel50))
         );
         machinariumLayout.setVerticalGroup(
             machinariumLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, machinariumLayout.createSequentialGroup()
-                .addContainerGap(297, Short.MAX_VALUE)
+                .addGroup(machinariumLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel26)
+                    .addComponent(jLabel50))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE)
                 .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
-            .addGroup(machinariumLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(machinariumLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel26)
-                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         recpanel.add(machinarium, "card23");
@@ -1190,7 +1113,7 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(0, 0, 0)
                 .addComponent(bodypanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(0, 0, 0))
         );
@@ -1402,15 +1325,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
     
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -1652,15 +1567,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
+  
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -1886,15 +1793,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
+   
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -2106,15 +2005,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
+   
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -2311,15 +2202,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
+  
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -2502,15 +2385,7 @@ if (frst){
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
     
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -2679,16 +2554,8 @@ if (ram>3 && otak<712 && graf<737 ){age=true;}
     boolean lp;
 if (ram>2 && otak<712 && graf<763 ){lp=true;}
     else {lp=false;};  
- if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (fire){
+
+     if (fire){
         recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
@@ -2779,169 +2646,6 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.revalidate();
     }
     }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-         int ram = Integer.parseInt(this.random.getText());
-    String grafis=(String)gpu.getSelectedItem();
-    String prosesor=(String)cpu.getSelectedItem();
-    
-    String [] gpu = {"Titan RTX", "NVidia Titan RTX 24GB", "Quadro RTX 8000", "Quadro RTX 6000", "Titan V", "RTX 2080-Ti", "Zotac RTX 2080 Ti 11GB GAMING AMP SPECTRA RGB", "Asus RTX 2080 Ti 11GB Dual-fan OC", "MSI RTX 2080 Ti 11GB Gaming", "Gigabyte RTX 2080 Ti 11GB Gaming OC", "Asus RTX 2080 Ti 11GB ROG Strix", "EVGA RTX 2080 Ti 11GB FTW3 Ultra Gaming", "EVGA RTX 2080 Ti 11GB Black", "Gigabyte RTX 2080 Ti 11GB Xtreme", "Titan Xp", "Quadro P6000", "GTX 1080-Ti", "EVGA GTX 1080 Ti 11GB Founders Edition", "Gigabyte GTX 1080 Ti 11GB Founders Edition", "MSI GTX 1080 Ti 11GB Founders Edition", "Zotac GTX 1080 Ti 11GB Founders Edition", "Asus GTX 1080 Ti 11GB Founders Edition", "Asus GTX 1080 Ti 11GB Gaming OC", "MSI GTX 1080 TI 11GB Gaming X", "Gigabyte GTX 1080 Ti 11GB AORUS", "EVGA GTX 1080 Ti 11GB FTW3 Gaming", "Asus GTX 1080 Ti 11GB ROG Strix OC", "EVGA GTX 1080 Ti 11GB SC Black", "Asus GTX 1080 Ti 11GB ROG Strix", "EVGA GTX 1080 Ti 11GB SC2 Gaming", "Gigabyte GTX 1080 Ti 11GB AORUS Xtreme", "RTX 2080S (Super)", "Gigabyte RTX 2080 Super 8GB Gaming", "EVGA RTX 2080 Super 8GB XC Ultra", "MSI RTX 2080 Super 8GB Gaming X", "Asus RTX 2080 Super 8GB ROG Strix A8G", "Asus RTX 2080 Super 8GB ROG Strix O8G", "MSI RTX 2080 Super 8GB Ventus XS OC", "MSI RTX 2080 Super 8GB Ventus OC", "Gigabyte RTX 2080 Super 8GB Windforce", "EVGA RTX 2080 Super 8GB Black Gaming", "Quadro RTX 5000", "Titan X Pascal", "NVidia Titan X Pascal 12GB", "RTX 2080", "MSI RTX 2080 8GB Gaming X Trio", "Gigabyte RTX 2080 8GB Windforce OC", "Asus RTX 2080 8GB Dual OC", "Gigabyte RTX 2080 8GB Gaming OC", "EVGA RTX 2080 8GB XC Ultra Gaming", "Asus RTX 2080 8GB ROG STRIX", "EVGA RTX 2080 8GB XC Gaming", "Radeon-VII", "Sapphire Radeon VII 16GB", "Asus Radeon VII 16GB", "RTX 2070S (Super)", "EVGA RTX 2070 Super 8GB SC XC Ultra Gaming", "Gigabyte RTX 2070 Super 8GB Gaming", "MSI RTX 2070 Super 8GB Ventus", "Gigabyte RTX 2070 Super 8GB 3X Windforce", "Gigabyte RTX 2070 Super 8GB 3X Gaming", "MSI RTX 2070 Super 8GB Gaming X", "EVGA RTX 2070 Super 8GB Super Black Gaming", "RX 5700-XT", "PowerColor RX 5700 XT 8GB", "Sapphire RX 5700 XT 8GB", "XFX RX 5700 XT 8GB", "MSI RX 5700 XT 8GB Gaming", "Asus RX 5700 XT 8GB", "Gigabyte RX 5700 XT 8GB", "Sapphire RX 5700 XT 8GB Pulse", "PowerColor RX 5700 XT 8GB Red Devil", "PowerColor RX 5700 XT 8GB Red Dragon", "Sapphire RX 5700 XT 8GB Nitro+", "Sapphire RX 5700 XT 8GB Pulse", "Gigabyte RX 5700 XT 8GB Gaming OC", "RTX 2070", "Gigabyte RTX 2070 8GB Gaming OC", "EVGA RTX 2070 8GB XC Gaming Dual HDB", "MSI RTX 2070 8GB Gaming Z", "EVGA RTX 2070 8GB XC Ultra Gaming", "Asus RTX 2070 8GB ROG STRIX", "MSI RTX 2070 8GB Armor OC", "Gigabyte RTX 2070 8GB Windforce", "EVGA RTX 2070 8GB Black Gaming", "Zotac RTX 2070 8GB Mini", "Asus RTX 2070 8GB Dual", "RX 5700XT 50th Anniversary", "RX Vega-64LC (Liquid Cooled)", "Gigabyte RX Vega 64 8GB LC", "Sapphire RX Vega 64 8GB LC", "XFX RX Vega 64 8GB LC", "GTX 1080", "EVGA GTX 1080 8GB Founders Edition", "ASUS GTX 1080 8GB Founders Edition", "MSI GTX 1080 8GB Founders Edition", "Zotac GTX 1080 8GB Founders Edition", "Gigabyte GTX 1080 8GB Founders Edition", "EVGA GTX 1080 8GB SC GAMING ACX 3.0", "MSI GTX 1080 8GB GAMING X", "Gigabyte GTX 1080 8GB G1 Gaming", "EVGA GTX 1080 8GB FTW ACX 3.0", "Asus GTX 1080 8GB ROG STRIX", "Asus GTX 1080 8GB ROG STRIX", "Zotac GTX 1080 8GB AMP", "Zotac GTX 1080 8GB AMP Extreme", "Gigabyte GTX 1080 8GB Xtreme", "Gigabyte GTX 1080 8GB Xtreme Pack", "Gigabyte GTX 1080 8GB Xtreme Water", "EVGA GTX 1080 8GB FTW2", "Gigabyte GTX 1080 8GB Turbo", "Gigabyte GTX 1080 8GB Windforce", "RTX 2080 (Mobile)", "RTX 2060S (Super)", "Gigabyte RTX 2060 Super 8GB Gaming", "EVGA RTX 2060 8GB SC XC Ultra Gaming", "MSI RTX 2060 Super 8GB Gaming X", "Gigabyte RTX 2060 Super 8GB Windforce OC", "Gigabyte RTX 2060 Super 8GB Aorus", "EVGA RTX 2060 8GB Super SC Black", "RX Vega-64", "Gigabyte RX Vega 64 8GB", "XFX RX Vega 64 8GB", "Sapphire RX Vega 64 8GB", "Asus RX Vega 64 8GB ROG Strix Gaming", "Gigabyte RX Vega 64 8GB Gaming OC", "MSI RX Vega 64 8GB Gaming Air Boost", "GTX 1070-Ti", "Asus GTX 1070 Ti 8GB STRIX", "MSI GTX 1070 Ti 8GB Gaming", "EVGA GTX 1070 Ti 8GB SC GAMING", "Gigabyte GTX 1070 Ti 8GB Gaming OC", "MSI GTX 1070 Ti 8GB Aero", "Asus GTX 1070 Ti 8GB ROG Strix Gaming", "EVGA GTX 1070 Ti 8GB FTW2 GAMING", "Gigabyte GTX 1070 Ti 8GB Gaming", "EVGA GTX 1070 Ti 8GB FTW ULTRA SILENT GAMING", "MSI GTX 1070 Ti 8GB TITANIUM", "Quadro RTX 4000", "Quadro P5000", "Vega Frontier Edition", "Radeon Vega Frontier Edition Air", "Quadro GP100", "RX 5700", "PowerColor RX 5700 8GB", "Sapphire RX 5700 8GB", "XFX RX 5700 8GB", "MSI RX 5700 8GB", "Sapphire RX 5700 8GB Pulse", "MSI RX 5700 8GB Mech", "Sapphire RX 5700 8GB Pulse", "PowerColor RX 5700 8GB Red Devil", "XFX RX 5700 8GB DD Ultra", "Gigabyte RX 5700 8GB Gaming OC", "MSI RX 5700 8GB Evoke OC", "GTX 1080 (Mobile)", "RTX 2070 (Mobile)", "RTX 2080 (Mobile Max-Q)", "RX 5600-XT", "Sapphire RX 5600 XT 6GB Pulse", "PowerColor RX 5600 XT 6GB Red Devil", "XFX RX 5600 XT 6GB Thicc II PRO", "Gigabyte RX 5600 XT 6GB Gaming OC", "RX Vega-56", "Sapphire RX Vega 56 8GB", "XFX RX Vega 56 8GB", "Gigabyte RX Vega 56 8GB", "MSI RX Vega 56 8GB Gaming Air Boost", "Gigabyte RX Vega 56 8GB OC", "Sapphire RX Vega 56 8GB Pulse", "ASRock RX Vega 56 8GB Phantom Gaming X", "RTX 2060", "MSI RTX 2060 6GB Ventus", "Zotac RTX 2060 6GB Twin", "Gigabyte RTX 2060 6GB Gaming OC", "EVGA RTX 2060 6GB XC Ultra Gaming", "Gigabyte RTX 2060 6GB Windforce OC", "MSI RTX 2060 6GB Gaming Z", "Asus RTX 2060 6GB ROG STRIX", "Gigabyte RTX 2060 6GB Gaming OC Pro ", "EVGA RTX 2060 6GB Gaming", "RTX 2070 (Mobile Max-Q)", "GTX 1070", "ASUS GTX 1070 8GB Founders Edition", "ZOTAC GTX 1070 8GB Founders Edition ", "PNY GTX 1070 8GB Founders Edition", "Gigabyte GTX 1070 8GB Founders Edition", "MSI GTX 1070 Founders Edition", "EVGA GTX 1070 8GB Founders Edition", "MSI GTX 1070 8GB GAMING X", "MSI GTX 1070 8GB GAMING X", "Gigabyte GTX 1070 8GB G1 Gaming", "MSI GTX 1070 8GB ARMOR OC", "EVGA GTX 1070 8GB SC GAMING", "Asus GTX 1070 8GB STRIX OC", "EVGA GTX 1070 8GB FTW Gaming", "Asus GTX 1070 8GB STRIX", "Zotac GTX 1070 8GB AMP! Extreme", "Gigabyte GTX 1070 8GB Windforce OC", "MSI GTX 1070 8GB Gaming", "Asus GTX 1070 8GB Dual OC", "EVGA GTX 1070 8GB SC Gaming ACX 3.0", "EVGA GTX 1070 8GB Gaming ACX 3.0", "EVGA GTX 1070 8GB FTW DT Gaming", "Gainward GTX 1070 8GB Phoenix GS", "Gigabyte GTX 1070 8GB XTREME", "Asus GTX 1070 8GB Turbo", "MSI GTX 1070 8GB SEA HAWK X", "Gigabyte GTX 1070 8GB Mini ITX OC", "EVGA GTX 1070 8GB FTW2", "GTX 980-Ti", "EVGA GTX 980 Ti 6GB ACX SC+ ACX 2.0+ w/BP", "EVGA GTX 980 Ti 6GB SC", "ASUS GTX 980 Ti 6GB", "MSI GTX 980 Ti 6GB Gaming", "Gigabyte GTX 980 Ti 6GB GV-N98TG1", "Gigabyte GTX 980 Ti 6GB Windforce 3X OC", "MSI GTX 980 TI 6GB OC GOLDEN LE", "EVGA GTX 980 Ti 6GB Classified Gaming ACX 2.0+", "GTX Titan X", "EVGA GTX TITAN X 12GB SC", "ASUS GTX TITAN X 12GB", "EVGA GTX TITAN X 12GB", "GTX 1080 (Mobile Max-Q)", "GTX 1660-Ti", "MSI GTX 1660 Ti 6GB Ventus XS OC", "EVGA GTX 1660 Ti 6GB Black Gaming", "MSI GTX 1660 Ti 6GB Gaming X", "Asus GTX 1660 Ti 6GB Dual", "EVGA GTX 1660 Ti 6GB XC Gaming", "Gigabyte GTX 1660 Ti 6GB Windforce OC", "Gigabyte GTX 1660 Ti 6GB OC", "Asus GTX 1660 Ti 6GB Phoenix", "Quadro M6000 24GB", "Quadro M6000", "Quadro P4000", "GTX 1660S (Super)", "MSI GTX 1660 Super 6GB Ventus XS OC", "Gigabyte GTX 1660 Super 6GB OC", "EVGA GTX 1660 Super 6GB SC Ultra Gaming", "Zotac GTX 1660 Super 6GB Compact", "MSI GTX 1660 Super 6GB Gaming X", "Asus GTX 1660 Super 6GB Dual Evo", "Asus GTX 1660 Super 6GB TUF Gaming", "GTX 1070 (Mobile)", "R9 Fury-X", "XFX R9 FURY X 4GB", "Sapphire R9 Fury X 4GB ", "Gigabyte R9 Fury X 4GB", "RTX 2060 (Mobile)", "Quadro P5000-M (Mobile)", "RX 590", "XFX RX 590 8GB Fatboy OC+", "Sapphire RX 590 8GB Nitro+", "PowerColor RX 590 8GB Red Dragon", "PowerColor RX 590 8GB Red Devil", "MSI RX 590 8GB Armor OC", "Gigabyte RX 590 8GB Gaming", "Sapphire RX 590 8GB Pulse", "GTX 1660", "Gigabyte GTX 1660 6GB OC", "EVGA GTX 1660 6GB XC Ultra Gaming", "MSI GTX 1660 6GB Ventus XS OC", "MSI GTX 1660 6GB Gaming X", "EVGA GTX 1660 6GB XC Black", "Asus GTX 1660 6GB Phoenix", "Gigabyte GTX 1660 6GB Gaming OC", "Zotac GTX 1660 6GB Compact", "Zotac GTX 1660 6GB Gaming Compact", "GTX 1070 (Mobile Max-Q)", "R9 Fury", "Sapphire R9 Fury 4GB TRI-X OC", "Sapphire R9 Fury 4GB TRI-X OC", "Asus R9 Fury 4GB Gaming", "XFX R9 Fury 4GB", "Sapphire R9 Fury 4GB NITRO", "GTX 1660 Ti (Mobile)", "GTX 980", "EVGA GTX 980 4GB SC ACX 2.0", "MSI GTX 980 4GB GAMING", "ASUS GTX 980 4GB STRIX OC", "GTX 780-Ti", "GTX 1650S (Super)", "Zotac GTX 1650 Super 4GB Gaming", "Asus GTX 1650 Super 4GB TUF Gaming", "EVGA GTX 1650 Super 4GB SC Ultra", "MSI GTX 1650 Super 4GB Ventus XS", "Gigabyte GTX 1650 Super 4GB 2x Windforce", "MSI GTX 1650 Super 4GB Gaming X", "Asus GTX 1650 Super 4GB Phoenix", "RX 5500-XT", "RX 5500", "GTX Titan Black", "RX 580", "MSI RX 580 8GB Gaming X", "MSI RX 580 4GB Gaming X", "Gigabyte RX 580 8GB AORUS XTR", "MSI RX 580  8GB Armor OC", "MSI RX 580  4GB Armor OC", "Asus RX 580 8GB ROG Strix", "Gigabyte RX 580 8GB Gaming", "Gigabyte RX 580 8GB AORUS", "Sapphire RX 580 8GB Pulse", "XFX RX 580 4GB OC+", "XFX RX 580 8GB OC+", "XFX RX 580 8GB Black OC+", "XFX RX 580 8GB GTS XXX", "PowerColor RX 580 8GB Red Dragon V2", "Sapphire RX 580 8GB Pulse Nitro+ RX", "Asus RX 580 4GB Dual OC", "GTX 1060-6GB", "EVGA GTX 1060 6GB Gaming", "EVGA GTX 1060 6GB Gaming SC", "Gigabyte GTX 1060 6GB G1 Gaming", "Zotac GTX 1060 6GB AMP", "Zotac GTX 1060 6GB Mini", "MSI GTX 1060 6GB Gaming X", "Asus GTX 1060 6GB Dual OC", "Gigabyte GTX 1060 6GB Windforce OC", "Asus GTX 1060 6GB ROG STRIX OC", "Asus GTX 1060 6GB TURBO", " Gainward GTX 1060 6GB Pheonix GS", "MSI GTX 1060 6G Armor OC", "MSI GTX 1060 6G Armor OCV1", "Asus GTX 1060 6GB ROG STRIX", "PNY GTX 1060 6GB", "PNY GTX 1060 6GB OC", "Gigabyte GTX 1060 6GB Xtreme Gaming", "EVGA GTX 1060 6GB Gaming SSC", "Gigabyte GTX 1060 6GB G1 Gaming R2", "MSI GTX 1060 6GB 6GT OCV1", "MSI GTX 1060 6GB Gaming", "Asus GTX 1060 6GB Dual OC", "GTX 1660-Ti (Mobile Max-Q)", "R9 Nano", "Asus R9 Nano 4GB", "Asus R9 Nano 4GB White", "Gigabyte R9 Nano 4GB", "GTX 1060-3GB", "Asus GTX 1060 3GB Dual OC", "Zotac GTX 1060 3GB Mini", "EVGA GTX 1060 3GB Gaming", "EVGA GTX 1060 3GB SC Gaming", "MSI GTX 1060 3GB Gaming X", "MSI GTX 1060 3GB Gaming X", "Gigabyte GTX 1060 3GB Windforce OC", "Gigabyte GTX 1060 3GB G1 Gaming", "Gigabyte GTX 1060 3GB Mini ITX OC", "MSI GTX 1060 3GB 3GT OC", "MSI GTX 1060 3GB ARMOR 3G OCV1", "Gigabyte GTX 1060 3GB G1 Gaming R2", "R9 390X", "MSI R9 390X 8GB Gaming", "Sapphire R9 390X 8GB TRIPLE Tri-X OC", "Gigabyte R9 390X 8GB G1 Gaming", "XFX R9 390X 8GB Double Dissipation", "GTX 780", "GTX 970", "MSI GTX 970 4GB Gaming", "ASUS GTX 970 4GB STRIX OC", "EVGA GTX 970 4GB Super Clocked ACX 2.0", "Gigabyte GTX 970 4GB G1 Gaming", "Gigabyte GTX 970 4GB OC Windforce", "EVGA GTX 970 4GB SSC ACX 2.0+", "Asus GTX 970 4GB Turbo OC", "EVGA GTX 970 4GB FTW+ GAMING ACX 2.0+ w/BP", "Zotac GTX 970 4GB Graphics Card", "RX 480", "Sapphire RX 480 8GB", "XFX RX 480 4GB 1266 MHz", "Sapphire RX 480 4GB", "MSI RX 480 8GB", "XFX RX 480 8GB 1328 MHz", "XFX RX 480 8GB 1288 MHz", "XFX RX 480 8GB LED 1288 MHz", "XFX RX 480 8GB XXX 1288 MHz", "XFX RX 480 8GB Black 1338 MHz", "XFX RX 480 4GB RS", "XFX RX 480 8GB RS XXX 1288 MHz", "Asus RX 480 8GB", "Sapphire RX 480 8GB NITRO+", "Sapphire RX 480 4GB NITRO+", "Sapphire RX 480 4GB NITRO+", "Sapphire RX 480 8GB NITRO+", "PowerColor RX 480 8GB Red Devil", "MSI RX 480 8GB Gaming X", "MSI RX 480 4GB Gaming X", "MSI RX 480 8GB Armor OC", "MSI RX 480 4GB Armor OC", "Asus RX 480 8GB ROG STRIX OC", "GTX 780 4GB", "R9 290X", "Sapphire R9 290X 4GB TRI-X OC", "Asus R9 290X 4GB DirectCU II", "XFX R9 290X 4GB Double Dissipation", "GTX Titan", "R9 295X2 (CrossFire Disabled)", "GTX Titan Z (SLI Disabled)", "RX 570", "MSI RX 570 4G Armor OC", "MSI RX 570 4GB Gaming X", "Gigabyte RX 570 4GB Gaming", "Gigabyte RX 570 4GB AORUS", "MSI RX 570 8G Armor OC", "Asus RX 570 4GB ROG Strix", "PowerColor RX 570 4GB Red Dragon", "XFX RX 570 4GB Twin", "XFX RX 570 4GB Twin", "XFX RX 570 4GB Twin", "XFX RX 570 4GB Twin XXX", "Quadro K6000", "R9 390", "MSI R9 390 8GB Gaming", "XFX R9 390 8GB Black", "XFX R9 390 8GB Double Dissipation", "XFX R9 390 8GB Double Dissipation", "XFX R9 390 8GB Black Nero", "Sapphire R9 390 8GB Nitro Tri-X OC +BP", "Sapphire R9 390 8GB Nitro Tri-X OC", "Asus R9 390 8GB STRIX", "GTX 1060 (Mobile)", "R9 290", "Sapphire R9 290 4GB TRI-X OC", "XFX R9 290 4GB Double Dissipation", "XFX R9 290 4GB Black Double Dissipation", "MSI R9 290 4GB GAMING", "Sapphire R9 290 4GB VAPOR-X TRI-X OC", "RX 470", "MSI RX 470 4GB Gaming X", "MSI RX 470 8GB Gaming X", "Sapphire RX 470 8GB NITRO+", "Sapphire RX 470 4GB NITRO+", "Sapphire RX 470 4GB", "Sapphire RX 470 4GB", "Asus RX 470 4GB ROG STRIX OC", "Gigabyte RX 470 4GB G1 Gaming", "PowerColor RX 470 4GB Red Devil/Dragon", "HIS RX 470 4GB IceQ XÂ² OC", "XFX RX 470 4GB Single Fan", "XFX RX 470 4GB Black", "MSI RX 470 4GB ARMOR OC", "GTX 1060 (Mobile Max-Q)", "Radeon Pro 5500M", "Quadro P2000", "GTX 980M", "GTX 770", "GTX 1650", "MSI GTX 1650 4GB Ventus XS OC", "Zotac GTX 1650 4GB OC Compact", "Asus GTX 1650 4GB Phoenix", "Gigabyte GTX 1650 4GB OC", "Gigabyte GTX 1650 4GB Mini ITX OC", "EVGA GTX 1650 4GB XC Gaming", "MSI GTX 1650 4GB Gaming X", "R9 380X", "XFX R9 380X 4GB Black DD XXX OC", "Sapphire R9 380X 4GB Nitro Dual-X OC", "Gigabyte R9 380X 4GB Gaming", "PowerColor R9 280X 3GB OC", "HD 7970", "GTX 1650 (Mobile)", "R9 280X", "Sapphire R9 280X 3GB Dual-X OC", "Sapphire R9 280X 3GB VAPOR-X", "Sapphire R9 280X 3GB TOXIC", "Gigabyte R9 280X 3GB WINDFORCE OC REV3", "Quadro P3000", "GTX 680", "FirePro W9000", "HD 7990 (CrossFire Disabled)", "Radeon Pro 5300M", "R9 380", "MSI R9 380 GAMING 4GB", "Sapphire R9 380 4GB NITRO", "Sapphire R9 380 2GB Dual-X OC", "Sapphire R9 380 2GB Dual-X OC", "Gigabyte R9 380 4GB G1", "Gigabyte R9 380 4GB G1 Windforce", "XFX R9 380 2GB DD Edition 2DF5", "XFX R9 380 2GB DD Edition F22M", "XFX R9 380 4GB DD Edition 4255", "XFX R9 380 4GB 4DF5", "Asus R9 380 2GB STRIX", "Asus R9 380  4GB STRIX GAMING", "PowerColor R9 380 4GB PCS+", "Radeon RX Vega M GH", "Quadro K5200", "GTX 1650 (Mobile Max-Q)", "GeForce GTX 690 (SLI Disabled)", "R9 285", "MSI R9 285 2GB GAMING", "Sapphire R9 285 2GB Dual-X OC", "PowerColor R9 285 2GB Turbo Duo", "GTX 670", "GTX 960", "EVGA GTX 960 2GB SuperSC ACX 2.0+", "ASUS GTX 960 2GB STRIX", "MSI GTX 960 2GB Gaming", "MSI GTX 960 4GB Gaming", "EVGA GTX 960 4GB SuperSC ACX 2.0 Backplate", "Gigabyte GTX 960 2GB Windforce 2X", "Gigabyte GTX 960 2GB OC", "ASUS GTX 960 4GB STRIX", "EVGA GTX 960 4GB FTW GAMING ACX 2.0+", "GTX 970M", "GTX 660-Ti", "R9 280", "Sapphire R9 280 3GB Dual-X", "XFX R9 280 3GB Double Dissipation", "XFX R9 280 3GB Double Dissipation Black", "Quadro M4000", "GTX 760", "GTX 1050-Ti", "EVGA GTX 1050 Ti 4GB SC Single Fan", "EVGA GTX 1050 Ti 4GB Gaming Single Fan", "EVGA GTX 1050 Ti 4GB SSC GAMING ACX 3.0", "MSI GTX 1050 Ti 4GB OC", "MSI GTX 1050 Ti 4GB OC Twin", "Gigabyte GTX 1050 Ti 4GB OC", "Zotac GTX 1050 Ti 4GB Mini", "Zotac GTX 1050 Ti 4GB Twin", "Gigabyte GTX 1050 Ti 4GB Twin", "MSI GTX 1050 Ti 4GB GAMING X", "Asus GTX 1050 Ti 4GB Expedition", "Asus GTX 1050 Ti 4GB ROG STRIX", "EVGA GTX 1050 Ti 4GB FTW GAMING ACX 3.0", "Gigabyte GTX 1050 Ti 4GB 1430 MHz", "Gigabyte GTX 1050 Ti 4GB G1 GAMING", "PNY GTX 1050 Ti 4GB Single", "Asus GTX 1050 Ti 4GB Cerberus OC", "Gigabyte GTX 1050 Ti 4GB OC Low Profile", "GTX 1050-Ti (Mobile)", "GTX 760 Ti OEM", "HD 7950", "GTX 880M", "GTX 1050", "Zotac GTX 1050 2GB Mini", "MSI GTX 1050 2GB OC", "MSI GTX 1050 2GB TWIN OC", "MSI GTX 1050 2GB GAMING X", "Gigabyte GTX 1050 2GB OC", "EVGA GTX 1050 2GB SC GAMING", "Gigabyte GTX 1050 2GB OC Single", "Gigabyte GTX 1050 2GB Windforce", "Asus GTX 1050 2GB Expedition", "EVGA GTX 1050 2GB SSC GAMING", "PNY GTX 1050 2GB", "EVGA GTX 1050 2GB GAMING", "Asus GTX 1050 2GB Phoenix", "GTX 780M", "R9 270X", "Sapphire R9 270X 2GB Dual-X Boost OC", "Sapphire R9 270X 4GB Dual-X Boost OC", "Gigabyte R9 270X 2GB WINDFORCE", "Gigabyte R9 270X 4GB WINDFORCE", "Asus R9 270X 2GB DirectCU II", "GTX 1050-Ti (Mobile Max-Q)", "GTX 950", "Zotac GTX 950 2GB", "Zotac GTX 950 2GB OC", "Zotac GTX 950 2GB AMP!", "EVGA GTX 950 2GB SC", "EVGA GeForce GTX 950 2GB ACX 2.0", "EVGA GTX 950 2GB SSC ACX", "Asus GTX 950 2GB STRIX GAMING", "Gigabyte GTX 950 2GB Windforce", "MSI GTX 950 2GB GAMING", "MSI GTX 950 2GB OC", "Gigabyte GTX 950 2GB XTREME", "HD 7870", "GTX 1050 (Mobile)", "GTX 870M", "Radeon RX Vega M GL", "Quadro K4200", "GTX 680MX", "GTX 660", "RX 560", "MSI RX 560 4GB Aero ITX", "Quadro K5000", "GTX 760 (192-bit)", "Quadro P1000", "R9 270", "ASUS R9 270 2GB Direct CU II OC", "Sapphire R9 270 2GB Dual-X Boost OC", "Gigabyte R9 270 2GB OC", "FirePro W7000", "GTX 775M", "GTX 965M", "Quadro K5100M", "Quadro M2000", "Radeon RX 560-B", "RX 460", "Gigabyte RX 460 4GB Windforce OC", "Gigabyte RX 460 2GB Windforce OC", "Asus RX 460 4GB ROG STRIX OC", "Gigabyte RX 460 2GB Windforce OC", "PowerColor RX 460 2GB Red Dragon", "Sapphire RX 460 4GB Nitro", "Sapphire RX 460 2GB 1210 MHz", "Sapphire RX 460 2GB 1090 MHz", "XFX RX 460 2GB", "XFX RX 460 2GB", "XFX RX 460 4GB SF", "Gigabyte RX 460 4GB Windforce 2x", "Asus RX 460 2GB Dual Fan OC", "MSI RX 460 2GB 2G OC", "GTX 580", "R7 370", "MSI R7 370 4GB Gaming", "MSI R7 370 2GB Gaming", "Gigabyte AMD R7 370 2GB", "Sapphire R7 370 2GB Dual-X OC ", "Sapphire R7 370 4GB NITRO Dual-X OC", "ASUS R7 370 2GB STRIX OC", "ASUS R7 370 4GB STRIX OC", "XFX R7 370 2GB 2SF5", "GTX 680M", "HD 6970", "GTX 650 Ti Boost", "HD 7790", "R9 M290X", "R7 260X", "SAPPHIRE R7 260X 2GB OC 2x DVI", "SAPPHIRE R7 260X 2GB OC", "XFX 260X 2GB", "MSI R7 260X 2GB OC", "RemoteFX Graphics Device - WDDM", "R7 265", "Sapphire R7 265 2GB Dual-X ", "MSI R7 265 2GB OC", "R9 M290", "Radeon HD 7970M", "GTX 570", "HD 6990 (Crossfire Disabled)", "GTX 750-Ti", "EVGA GTX 750 Ti 2GB SC", "ASUS GTX 750 Ti 2GB OC", "MSI GTX 750 Ti 2GB", "MSI GTX 750 Ti 2GB Gaming", "EVGA GTX 750 Ti 2GB", "EVGA GTX 750 Ti 2GB FTW", "Gigabyte GTX 750 Ti 2GB OC 2", "Gigabyte GTX 750 Ti 2GB", "HD 7850", "GTX 480", "GTX 770M", "GTX 560 Ti", "GTX 560 Ti (448 Core LE)", "R7 360", "MSI R7 360 2G OC", "Sapphire R7 360 2GB OC", "Sapphire R7 360 2GB NITRO", "Gigabyte R7 360 2GB", "Gigabyte R7 360 2GB V2", "XFX R7 360 2GB 360P", "Asus R7 360 2GB OC V2", "HD 6950", "GTX 960M", "GTX 650-Ti", "Quadro K2200", "GTX 860M", "SVGA 3D", "GeForce GTX 590 (SLI Disabled)", "GTX 675MX", "RX Vega 11 (Ryzen iGPU)", "Radeon HD 8950", "HD 5870", "GTX 750", "EVGA GTX 750 1GB Dual-Link", "EVGA GTX 750 1GB Dual-Link SC", "FirePro M6100 (FireGL V)", "Quadro K5000M", "GTX 765M", "GeForce GTX 580M", "GTX 560", "GTX 850M", "GTX 950M", "GTX 460 v2", "GeForce GTX 470", "GT 1030", "GTX 560 Ti-OEM", "Quadro K4000", "MX150-0", "RX 550", "GeForce MX250", "HD 5970 (Crossfire Disabled)", "Quadro 6000", "Quadro K1200", "GTX 460", "GTX 670MX", "HD 7770", "GTX 760M", "GeForce GTX 485M", "R7 250X", "HD 5850", "HD 6870", "Radeon HD 8760", "FirePro V7900 (FireGL V)", "Quadro K4000M", "GeForce GTX 560 SE", "GeForce GTX 555", "GTX 465", "Iris Plus G7", "Quadro K3100M", "MX150-2", "GTX 675M", "GeForce GTX 645", "Iris Pro 580 (Mobile Skylake)", "Display Adapter (WDDM)", "GTX 460 SE", "HD 5830", "GTX 670M", "GeForce MX230", "Quadro K620", "MX130", "Quadro 5000", "Radeon 540", "RX Vega 10 (Ryzen iGPU)", "GTX 650", "RX Vega 8 (Ryzen iGPU)", "GTX 550-Ti", "GTX 745 (OEM)", "GeForce GTX 570M", "Iris Pro HD 6200 (Desktop)", "HD 6850", "GeForce GT 755M", "940MX", " Iris Plus 650 (Mobile Kaby Lake)", "GTX 940M", "FirePro M6000", "Iris Plus G4", "Radeon HD 5700", "GeForce 840M", "FirePro M5100 (FireGL V)", "GeForce GT 740", "GeForce GT 750M", "HD 5770", "Radeon HD 7800M", "R9 M370X", "Radeon HD 6770", "HD 4890", "HD 6790", "GTX 660M", "GeForce GTX 285", "930MX", "Quadro K3000M", "R7 250", "Quadro K2000", "R7 250E", "Quadro K2100M", "GTX 275", "HD 6970M", "GeForce GTS 450", "Iris Plus 640 (Mobile Kaby Lake)", "GeForce GT 745M", "GeForce GTX 480M", "Quadro 4000M", "EAH6770", "HD 7750", "GeForce GTX 560M", "FirePro M8900", "GeForce GT 640", "GeForce GTX 280", "Iris 550 (Mobile Skylake)", "Quadro FX 5800", "GeForce GTX 295 (SLI Disabled)", "GeForce GT 650M", "FirePro V5800 (FireGL V)", "HD 4870", "Mobility Radeon HD 5870", "HD 5750", "GeForce GTX 460M", "MX110", "Quadro 4000", "Radeon R7 Graphics", "FirePro M4000", "Radeon HD 7700M", "Radeon HD 6700", "Iris 540 (Mobile Skylake)", "GeForce 830M", "Quadro 2000", "GTX 260", "Radeon  530", "HD 7730", "RX Vega 6 (Ryzen iGPU)", "Radeon HD 4770", "GeForce 9800 GTX", "Iris Pro HD 6100 (Mobile)", "Quadro K2000M", "Radeon HD 4850", "Radeon HD 4850-X2", "UHD G1", "GeForce GT 740M", "Radeon HD 8570", "GeForce GTS 250", "Quadro 3000M", "GeForce GT 545", "920MX", "GeForce 8800 GTS-512", "GeForce GT 640M", "UHD Graphics 630 (Desktop Coffee Lake i5 i7)", "GeForce GT 635", "Quadro FX 3800", "HD 6000 (Mobile)", "Mobility Radeon HD 5850", "GeForce GTS 240", "Quadro K1100M", "FirePro V5900 (FireGL V)", "Radeon HD 4800", "Radeon 520", "FirePro V4900", "HD 630 (Desktop Kaby Lake)", "R7 240", "UHD Graphics 630 (Desktop Coffee Lake i3)", "GeForce 8800 GT", "Quadro 2000M", "UHD Graphics 620 (Mobile Kaby Lake R)", "FirePro M7740", "HD P530 (Server Skylake)", "Radeon HD 6670", "Quadro FX 3800M", "GeForce GTX 280M", "Radeon HD 8650G", "GeForce GTX 285M", "HD 530 (Desktop Skylake)", "GeForce 8800 Ultra", "GeForce GT 555M", "GeForce 9800 GT", "GeForce GT 730", "Radeon HD 8670D", "GeForce GT 445M", "HD 620 (Mobile Kaby Lake)", "Radeon HD 7670", "Quadro FX 3700M", "Iris Pro HD 5200 (V1 Mobile 1.15 GHz)", "Radeon HD 6700M", "GeForce 8800 GTX", "HD 530 (Mobile Skylake)", "Radeon HD 7660D", "Radeon HD 6730M", "Radeon  HD 6770M", "FirePro V4800 (FireGL V)", "Radeon HD 5670", "Iris Pro HD 5200 (V2 Mobile 1.2 GHz)", "HD 520 (Mobile Skylake)", "Radeon HD 7570", "Quadro FX 3700", "GeForce 8800 GS", "GeForce GT 440", "RX Vega 3 (Ryzen iGPU)", "Radeon HD 6570", "GeForce GT620M", "Radeon HD 6750M", "GeForce GT 630", "GeForce GTX 260M", "NVS 5400M", "Quadro FX 2800M", "GeForce 710M", "GeForce 820M", "GeForce GT 550M", "GeForce GT 635M", "Radeon HD 7660G", "GeForce GT 630M", "HD 5500 (Mobile 0.95 GHz)", "GeForce 8800 GTS", "Quadro K1000M", "GeForce GTS 360M", "GeForce GT 720", "HD 615 (Mobile Kaby Lake)", "GeForce GT 240", "Radeon HD 6630M", "Quadro K600", "GeForce 9600 GT", "GeForce GT 530", "GeForce GT 720M", "Quadro FX 4600", "Radeon HD 7670M", "Radeon HD 5570", "GeForce GT 430", "Radeon HD 8610G", "GeForce GT625M", "HD 515 (Mobile Skylake)", "Radeon HD 3870", "Radeon HD 7600M", "Quadro 1000M", "GeForce GT 230", "NVS 510", "Quadro 600", "Radeon HD 8570D", "Mobility Radeon HD 5730", "GeForce 9800M GTS", "GeForce GT 540M", "NVS 5200M", "Quadro FX 1800", "GeForce GT 435M", "Radeon HD 6550D", "GeForce GT 710", "Radeon HD 7560D", "Radeon HD 7500M", "Mobility Radeon HD 4670", "Radeon HD 7650M", "Radeon HD 3800", "Iris Pro HD 5100 (Mobile 1.1 GHz)", "GeForce GTS 250M", "Radeon HD 8510G", "GeForce GT 320", "Radeon HD 8550G", "HD Graphics P4600", "GeForce 9800M-GS", " HD 610 (Desktop Kaby Lake)", "GeForce GT 425M", "Radeon HD 4670", "Mobility Radeon HD 3870-X2 (Crossfire Disabled)", "Radeon HD 6500M", "HD 4600 (Desktop 1.25 GHz)", "Radeon HD 5500", "GeForce GT 525M", "Radeon HD 7640G", "Quadro FX 1800M", "GeForce GT 420M", "HD 5000 (Mobile 1.0/1.1 GHz)", "Radeon HD 7600G", "HD P4000 (Server 1.25 GHz)", "Radeon HD 7610M", "Quadro FX 2700M", "Quadro FX 3600M", "Radeon HD 8470D", "HD 4600 (Mobile 1.15 GHz)", "GeForce GT 335M", "HD 510 (Desktop Skylake)", "Radeon HD 4650", "Radeon HD 7540D", "Radeon HD 6620G", "Core M HD 5300", "Mobility Radeon HD 4650", "GeForce GT 130", "HD 4000 (Desktop 1.15 GHz)", "GeForce GT 620", "GeForce 610M", "HD 4400 (Desktop 1.15 GHz)", "GeForce GT 330M", "NVS 5100M", "GeForce GT 220", "Quadro FX 880M", "UHD Graphics 605", "GeForce GT 240M", "HD 4000 (Mobile 1.25 GHz)", "NVS 4200M", "GeForce GT 520MX", "GeForce GT 705", "Radeon HD 6530D", "Radeon R5", "Radeon HD 7520G", "HD 4400 (Mobile 1.0/1.1 GHz)", "GeForce 9700M GT", "GeForce GT 230M", "GeForce 8600 GTS", "GeForce GT 520", "GeForce GT 520M", "GeForce GT 610", "GeForce GT 130M", "Radeon HD 6520G", "GeForce GT 420", "GeForce 9500 GS", "Radeon HD 7500G", "Quadro FX 770M", "GeForce 9500 GT", "Radeon HD 8370D", "HD 7470", "GeForce 320M", "Radeon R3 Graphics", "Quadro 400", "GeForce 9650M-GT", "GeForce GT 220M", "Quadro FX 580", "GeForce 9600M-GT", "Radeon HD 7480D", "Radeon HD 8400-R3", "UHD Graphics 600", "Radeon  HD 6490M", "GeForce 8600 GT", "Radeon HD 7470M", "Quadro FX 1600M", "HD 4200 (Mobile 0.85 GHz)", "GeForce 410M", "Radeon HD 7400M", "HD 3000 (Desktop V2 1.35 GHz)", "GeForce 9600M-GS", "Radeon HD 6480G", "NVS 310", "Radeon HD 6470M", "Quadro NVS 320M", "Radeon HD 8330", "Radeon HD 7400G", "Radeon HD 7450", "HD 3000 (Mobile V2 1.3 GHz)", "Radeon HD 6450", "GeForce GT 415M", "Quadro FX 570M", "HD Graphics (G4 Pentium/Celeron 1.05/1.15 GHz)", "Radeon HD 2600-XT", "Radeon HD 6410D", "GeForce GT 320M", "Radeon HD 2600", "Quadro FX 1700", "HD 3000 (Desktop V1 1.1 GHz)", "HD 2500 (Desktop 1.05 GHz)", "HD 3000 (Mobile V1 1.1/1.2 GHz)", "GeForce 8600M GT", "HD 3650", "HD 8240", "Mobility Radeon HD 3670", "GeForce 310M", "HD Graphics (G3 Pentium/Celeron 1.0/1.1 GHz)", "GeForce 9400 GT", "Mobility Radeon HD 2600-XT", "GeForce 315M", "NVS 3100M", "Quadro FX 380", "GeForce 310", "Mobility FireGL V5700", "GeForce G210M", "HD 8210", "Radeon HD 2600-PRO", "NVS 300", "Mobility Radeon HD 3650", "Radeon HD 6370M", "Mobility Radeon HD 5470", "Radeon HD 6300M", "Mobility Radeon HD 6370", "GeForce G210", "GeForce 305M", "GeForce 210", "Radeon HD 6350", "Radeon HD 7350", "Mobility Radeon HD 545v", "GeForce 8500 GT", "Radeon HD 5400", "Mobility Radeon HD 2600", "Radeon HD 5450", "GeForce 8600M GS", "HD 2000 (Desktop 1.1 GHz)", "Mobility Radeon HD 4570", "Radeon HD 4550", "Mobility Radeon HD 4500", "FirePro 2270", "HD Graphics (Bay Trail 0.667 - 0.854 GHz)", "GeForce G105M", "Quadro FX 570", "Radeon HD 4300", "GeForce 8400M GT", "HD Graphics (G2 Pentium/Celeron 1.1/1.15 GHz)", "HD Graphics (Clarkdale 0.733/0.9 GHz)", "Radeon HD 7340", "GeForce 9400M", "Radeon HD 6320", "Mobility Radeon HD 4350", "ION", "Mobility Radeon HD 530v", "Radeon HD 7310", "Quadro NVS 295", "GeForce 9300M GS", "GeForce 8400 GS", "Radeon HD 6310", "Mobility Radeon HD 4300", "Quadro NVS 160M", "Quadro NVS 140M", "HD Graphics (Arrandale 0.667/0.766 GHz)", "Quadro NVS 290", "Quadro NVS 450", "GeForce 8400M GS", "GeForce 9200M GS", "GeForce 9300 GS", "Radeon HD 6290", "Radeon HD 3300", "4 Series Internal Chipset", "G41 Express Chipset", "Radeon HD 4290", "G45/G43 Express Chipset", "Radeon HD 6250M", "GeForce 8200", "Q45/Q43 Express Chipset", "Radeon HD 6250", "Mobility Radeon HD 3400", "Mobile Series 4 Express Chipset Family", "Quadro NVS 135M", "GeForce 8400M G", "Radeon HD 2400-PRO", "GeForce 8200M G", "Radeon HD 3450", "Radeon HD 4250", "Radeon 3000 Graphics", "Mobility Radeon HD 2400", "FirePro 2260", "Radeon HD 4200", "Radeon HD 3200", "Mobility Radeon HD 4250", "Radeon 3100 Graphics", "GeForce 7800 GT", "GeForce 7900 GTX", "GeForce 7800 GTX", "Quadro FX 4500", "GeForce 7900 GS", "Quadro FX 3500", "GeForce Go 7900", "GeForce 7600 GT", "GeForce 7800 GS", "Quadro FX 1500", "GeForce 7600 GS", "Radeon X1650", "GeForce 6800", "Radeon X1600", "GeForce 6800 GS", "GeForce Go 7600", "Quadro FX 3450/4000 SDI", "GeForce 7300 GT", "Mobility Radeon X1600", "Graphics Media Accelerator 3150", "MOBILITY FireGL V5250", "GeForce 6600 GT", "GeForce 6600", "GeForce 7300 GS", "GeForce Go 7400", "Radeon X1300", "Radeon X1550", "GeForce 7300 LE", "Mobility Radeon X2300", "GeForce Go 7300", "Mobility Radeon X1400", "Mobility Radeon X1300", "Quadro NVS 440", "GeForce 7300 SE", "GeForce 7100 GS", "GeForce 7100 / nForce 630i", "GeForce 6200", "GeForce 7025 / nForce 630a", "GeForce 6100", "GeForce 6150", "GeForce 6150SE nForce 430", "GeForce 7150M / nForce 630M" };
-   
-   
-        String[] cpu = {"Core i9-10900K", "Core i9-9900KS", "Core i7-10700K", "Core i9-9900KF", "Core i5-10600K", "Core i7-10700", "Core i9-9900K", "Core i7-9700K", "Core i7-9700KF", "Core i7-8086K", "Core i5-9600K", "Core i5-9600KF", "Core i7-9700F", "Core i9-9900", "Core i7-9700", "Core i7-8700K", "Core i5-9600", "Core i5-8600K", "Core i9-10980HK", "Core i5-9500", "Core i5-10600", "Core i7-8700", "Core i7-10875H", "Core i9-10940X", "Core i3-10100", "Core i3-9350KF", "Core i9-10920X", "Core i5-10400", "Core i9-10900X", "Ryzen 7 3800X", "Core i5-8600", "Core i7-10750H", "Core i7-7740X", "Ryzen 9 3900X", "Ryzen 9 3950X", "Core i7-7700K", "Ryzen 9 4900HS", "Ryzen 7 3700X", "Core i7-6900K", "Core i5-9400F", "Core i9-9920X", "Core i7-6850K", "Core i5-9400", "Core i9-10980XE", "Core i9-9940X", "Core i5-7640X", "Core i5-8500", "Core i7-6950X", "Core i9-9900X", "Ryzen 5 3600X", "Ryzen 7 4800U", "Core i9-9960X", "Ryzen 7 4800HS", "Core i7-9800X", "Core i9-9980HK", "Ryzen 7 4800H", "Core i9-7960X", "Core i9-7900X", "Core i5-8400", "Core i9-7940X", "Ryzen TR 3960X", "Core i9-9980XE", "Core i9-9820X", "Ryzen 5 3500X", "Core i7-8700T", "Core i7-6700K", "Ryzen TR 3970X", "Core i7-5960X", "Ryzen 3 3300X", "Core i3-8350K", "Core i9-7920X", "Ryzen 5 3600", "Core i3-10300", "Core i7-5930K", "Core i7-5775C", "Core i7-4790K", "Core i7-7820X", "Core i7-6800K", "Ryzen 5 4600HS", "Core i5-8600T", "Ryzen 5 3500", "Core i9-9880H", "Core i7-4960X", "Core i7-5820K", "Ryzen 7 2700X", "Core i7-9850H", "Core i9-7980XE", "Core i5-7600K", "Core i3-9100", "Core i5-10300H", "Core i7-7800X", "Core i7-8809G", "Core i3-9100F", "Core i7-8559U", "Core i5-5675C", "Core i7-9750H", "Xeon E5-1650 v3", "Ryzen 7 4700U", "Xeon E5-1650 v2", "Core i5-6600K", "Ryzen 5 2600X", "Core i7-7700", "Xeon E3-1245 v6", "Core i7-4930K", "Ryzen TR 2920X", "Core i5-9400H", "Core i5-4690K", "Xeon E3-1270 v6", "Core i7-4770K", "Xeon E3-1286 v3", "Core i9-8950HK", "Core i7-3960X", "Core i7-3970X", "Ryzen 5 4600H", "Ryzen TR 2950X", "Ryzen 7 4700G", "Core i3-8300", "Core i7-3930K", "Core i5-4670K", "Ryzen 5 4500U", "Core i7-8850H", "Core i5-7600", "Core i5-8500T", "Core i7-8750H", "Ryzen TR 2970WX", "Core i7 X 990", "Core i7-5775R", "Xeon W3690", "Core i7-5950HQ", "Xeon E3-1230 v6", "Ryzen 5 2600", "Core i7 X 000", "Ryzen 5 1600AF", "Xeon W3680", "Core i7-3770K", "Core i5-10400H", "Core i3-8100", "Core i7-4790", "Xeon X5690", "Xeon E3-1276 v3", "Core i7 X 980", "Ryzen 7 1800X", "Core i5-3570K", "Xeon E3-1275 v3", "Core i5-8400T", "Core i5-8400H", "Ryzen TR 2990WX", "Ryzen TR 1900X", "Core i5-4690", "Core i7-6700", "Xeon E3-1230 v5", "Ryzen TR 1920X", "Core i5-7600T", "Core i7-4771", "Ryzen 7 2700", "Core i7-4770", "Xeon E3-1241 v3", "Core i7-8706G", "Core i7-2600K", "Xeon E3-1271 v3", "Core i7 980", "Core i5-9300H", "Xeon E3-1231 v3", "Core i5-2550K", "Core i5-2500K", "Core i5-7500", "Ryzen 5 1600X", "Xeon E5-1650 0", "Core i7-2700K", "Core i5-4670", "Core i7-4820K", "Core i7-7820HK", "Ryzen TR 1950X", "Xeon E3-1270 v3", "Xeon E3-1246 v3", "Xeon E3-1270 V2", "Xeon E3-1230 v3", "Core i5-8300H", "Ryzen 3 3100", "Ryzen 7 1700X", "Core i5-4590", "Xeon E5-2687W 0", "Xeon X5660", "Core i7 970", "Xeon E3-1240 v3", "Core i5-8259U", "Xeon E5-1620 v2", "Core i7-3770", "Core i5-4670S", "Core i5-6600", "Core i7-5850HQ", "Core i7-4790S", "Core i7-8705G", "Xeon E3-1275 V2", "Core i7-7700T", "Xeon E3-1240 V2", "Core i5-6600T", "Core i7-4770S", "Ryzen 5 3400G", "Ryzen 5 2500X", "Core i5-3570", "Core i7-3820", "Xeon E3-1245 V2", "Xeon E3-1220 v5", "Xeon E3-1245 v3", "Core i5-4570", "Xeon E3-1230 V2", "Core i5-4590S", "Core i5-3550", "Xeon E5-2690 v2", "Xeon E3-1226 v3", "Xeon X5650", "Xeon E3-1265L v3", "Ryzen 3 3200G", "Core i7-6700T", "Xeon E5-1620 0", "Ryzen 5 1600", "Xeon E31270", "Core i3-8100T", "Core i7-3770S", "Core i7-2600", "Core i5-8305G", "Ryzen 7 1700", "Core i5-4570S", "Core i3-7320", "Core i3-7350K", "Ryzen 3 4300U", "Core i5-2500", "Core i5-6500", "Xeon E3-1225 v3", "Xeon W3570", "Core i7-4790T", "Xeon E3-1220 v3", "Core i7 975", "Core i5-3470", "Xeon E3-1220 V2", "Core i7-7920HQ", "Core i7-10710U", "Core i5-7500T", "Core i5-4460", "Core i7-5700HQ", "Core i5-7400", "Xeon E3-1225 V2", "Core i5-3450", "Xeon E31230", "Xeon E3-1240", "Xeon E3-1505M v6", "Core i7-4940MX", "Core i3-7300", "Core i5-2450P", "Core i7 880", "Core i7-6820HK", "Xeon X3470", "Core i7-3940XM", "Core i7-6920HQ", "Core i7 965", "Core i7-4930MX", "Core i5-3475S", "Core i5-8279U", "Core i7-4770T", "Xeon E31220", "Core i7 K 875", "Pentium Gold G5600", "Xeon E31225", "Core i5-4440", "Xeon X5667", "Core i5-3470S", "Core i7-7700HQ", "Ryzen 3 2200G", "Core i7-7820HQ", "Core i5-2400", "Xeon E5-2643 0", "Core i7-3920XM", "Core i5-4430", "Xeon E5-2630 v3", "Core i5-3450S", "Core i3-6320", "Core i7-4810MQ", "Core i5-4460S", "Core i7 960", "Core i7-4900MQ", "Xeon W3565", "Core i5-6400", "Core i5-2320", "Xeon X5570", "Core i7-1065G7", "Core i5-10210U", "Core i3-7101E", "Core i5-3350P", "Pentium Gold G5500", "Ryzen 5 1500X", "Xeon E5-2670", "FX-9590", "Core i7 870", "Core i5-3340", "Core i7-6820HQ", "Core i7-4910MQ", "Ryzen 5 2400G", "Core i7-950", "Core i7-10510U", "Xeon X3460", "Core i5-7300HQ", "Pentium G4620", "Core i7-4720HQ", "Core i7-2600S", "Core i5-1035G1", "Core i3-4370", "Core i7-3740QM", "Xeon L5639", "Xeon W3550", "Core i7-4960HQ", "Core i3-7100", "Xeon X3450", "Core i7-3840QM", "Core i5-3330", "Xeon X3440", "Core i3-6300", "Ryzen 3 1300X", "Core i7-4800MQ", "Core i5-2310", "Xeon X5560", "Core i3-7300T", "FX-9370", "Core i5-7400T", "Core i5-2500S", "Core i5-4570R", "Core i7-3820QM", "Core i7-4700HQ", "FX-8350", "Core i7-4710MQ", "Core i3-8109U", "FX-8370", "Pentium Gold G5400", "Core i5-2300", "Core i5 760", "Core i7 860", "Core i7-6700HQ", "Core i7-4700MQ", "Core i7 930", "Core i3-6100", "Core i5-8365U", "Core i5-750", "Core i7-3630QM", "Core i7-4710HQ", "Core i5-3330S", "Core i3-4360", "Core i7 940", "Core i3-4350", "Xeon W3530", "Core i7-3720QM", "Core i5-1035G4", "Core i7-8565U", "Core i7-4722HQ", "Pentium G4600", "Core i5-8265U", "Core i7-8665U", "Core i7-3610QM", "Ryzen 5 1400", "Core i3-6300T", "Core i3-4340", "Core i7-4850HQ", "Core i7-920", "Core i3-4170", "Core i7-4702MQ", "Core i3-6098P", "Xeon E5-2670 v2", "Phenom II X6 1100T", "Core i3-4330", "Core i5-1035G7", "Core i7-7567U", "Core i5-8250U", "Core i5-8350U", "Pentium G4560", "FX-6350 Six-Core", "Pentium G5500T", "Ryzen 5 2600H", "Xeon W3520", "Core i5-2405S", "Core i5-2400S", "Core i3-7100T", "Core i5-7260U", "FX-8320", "Core i3-4150", "Core i7-4750HQ", "Pentium G5400T", "Ryzen 9 4900U", "FX-8370E", "Xeon X3430", "Core i7-4770HQ", "Core i5-6300HQ", "Ryzen 3 1200", "Core i7-4702HQ", "Core i7-8650U", "Core i7-2960XM", "Core i3-4160", "Core i7-3632QM", "Phenom II X4 980", "Core i7-2920XM", "Core i7-8550U", "FX-8310", "Phenom II X6 1090T", "Core i7-3635QM", "Core i7-4712HQ", "Core i3-4130", "FX-8300", "Xeon E5540", "Xeon E5-2630 0", "FX-8150", "Core i7-3615QM", "Ryzen 7 2800H", "Core i7-2860QM", "Phenom II X4 975", "Core i7-3612QM", "FX-8320E", "Phenom II X4 970", "Core i3-3250", "Phenom II X6 1075T", "Core i7-2760QM", "Core i3-6100T", "Core i7-4610M", "Phenom II X4 B65", "Xeon E5-1603 0", "Ryzen 7 3750H", "Core i5-4570T", "Athlon II X4 555", "FX-6300", "FX-4350", "Core i3-2125", "Core i3-10110U", "Core i3-3225", "Core2 Extreme X9770", "Xeon E5-2620 v2", "Core i3-3240", "Core i7-2820QM", "Xeon E5530", "FX-6200 Six-Core", "Core i7-5557U", "Core i3-2130", "Athlon 3000G", "Phenom II X4 965", "FX-4170 Quad-Core", "Core i3-7167U", "Xeon E5620", "Core i7-7600U", "Core i7-2720QM", "Phenom II X6 1055T", "Athlon 240GE", "Pentium G4520", "Core i3-1005G1", "Pentium G4560T", "Core i3-8145U", "Phenom II X4 B60", "Core i3-2120", "Core i3-3220", "Core i3-3210", "Core i7 X 940", "Ryzen 5 3550H", "Core i5-4200H", "Core i5-3470T", "Core i7-7500U", "Core i7-4600M", "FX-8120", "Core i7-2670QM", "Athlon 220GE", "Xeon E5520", "Xeon E5-2620 0", "Phenom II X4 960T", "Core i5-7200U", "Phenom II X4 955", "Phenom II X6 1045T", "Core X 920", "A10-6800K APU (2013 D.Ri)", "Pentium G3470", "Core i3-4130T", "A10-6790K APU (2013 D.Ri)", "Athlon II X4 760K (2013 D.Ri)", "Core i5-4300M", "Core i3-2100", "Phenom II X4 B55", "Xeon L5520", "Pentium G3460", "Core i3-2105", "A8-6600K APU", "Core i5-3380M", "Pentium G4500", "Core i7-5550U", "Core i7-3540M", "Core i5-3360M", "FX-6120 Six-Core", "A10-5800K APU (2012 D.Tr)", "Core i7-3520M", "Core i5-4210M", "Core i7-2675QM", "FX-4300", "Core i7-2630QM", "Phenom II X4 B50", "Core i3-8130U", "Pentium G3440", "Core i3-7130U", "FX-6100", "Core i5-4200M", "Core i5-7300U", "A10-5800B APU (2012 D.Tr)", "Core i7-4558U", "Core i3-3220T", "Core i7-2635QM", "Phenom II X4 20", "Phenom II X6 1035T", "Xeon X5470", "A10-6700 APU (2013 D.Ri)", "Pentium G3258", "Core i5-5287U", "Celeron G3950", "Core i5-3340M", "Phenom II X4 945", "Pentium G3430", "Core i5-4258U", "Pentium G3420", "Phenom II X4 840T", "Pentium G3450", "Athlon 200GE", "A8-5600K APU", "Core i7-7660U", "Core i7-5650U", "Core i5-5257U", "Core i5-6260U", "Core i7-5600U", "Core i7-2620M", "Core i7-6567U", "Phenom II X4 830", "Core i5-3320M", "Phenom II X4 925", "Xeon E5-2609 0", "Ryzen 3 3300U", "Core i7-7560U", "Xeon E5-2680 v2", "Core i3-6157U", "Core i7-6500U", "Pentium G4400", "Athlon II X4 750K", "Core i7-4510U", "Core i5-3230M", "Core i7-4600U", "Celeron G4900", "Core i7-2640M", "Core i7 X 920", "FX-4130 Quad-Core", "Core i7 Q 840", "Phenom II X4 940", "Pentium G2130", "Pentium G3260", "Core i7-4500U", "Core i7-6600U", "Core i5-3210M", "Core i3-6167U", "A8-6500 APU", "FX-4100", "Phenom II X4 910e", "A10-7890K APU (2014 D.Ka)", "Core i5-2520M", "Core2 Extreme X9650", "Core i7 Q 740", "Ryzen 5 3500U", "Xeon E5507", "Core i5-4310U", "Pentium G2120", "Core i3-2120T", "A10-5700 APU (2012 D.Tr)", "Core i5-6300U", "Phenom II X4 850", "Phenom II X4 B45", "Core i5-2540M", "Core2 Quad Q9650", "A12-9800 APU (2016 M.BR)", "Core i7-5500U", "Core i3-7100U", "Athlon X4 880K", "A8-3870 APU", "Xeon X5460", "Core i7-3687U", "Phenom II X4 B40", "Core i5-5300U", "Athlon II X4 860K", "Xeon X5472", "Core i7-6650U", "Celeron G3900", "Core i5-6200U", "Athlon II X4 651", "Celeron G3930", "Core i7-3537U", "Pentium G3240", "Ryzen 7 3700U", "Phenom II X4 905e", "Phenom II X4 840", "Phenom II X4 920", "Pentium G3250", "Pentium G860", "Core i3-4000M", "Athlon II X4 740K", "Xeon E5472", "Xeon E5506", "Pentium G3220", "Core i5-2450M", "A10-7870K APU (2014 D.Ka)", "Athlon II X4 870K", "A8-5500 APU", "Ryzen 5 2500U", "Core i5-4300U", "Xeon E5450", "Pentium G870", "Phenom II X4 810", "Core i5-2430M", "Core i3-3120M", "Xeon X5450", "Core i7 Q 820", "Core i5-2435M", "Celeron G1850", "Celeron G1830", "Pentium G850", "Core i5-2410M", "Core i7-4650U", "Athlon X4 845", "Core i3-6100U", "Ryzen 3 2300U", "Pentium G840", "A10-7850K APU (2014 D.Ka)", "Athlon II X4 645", "Pentium G2030", "A8-3850 APU", "Ryzen 7 2700U", "Core i7-3667U", "Core i5-4210U", "Core2 Quad Q9550", "Core i3-3110M", "Core i7 Q 720", "Pentium G2010", "Core i5-5200U", "Core i5-4250U", "Xeon E5504", "Core i3-7020U", "Core i5-4200U", "A8-7670K APU (2014 D.Ka)", "Athlon II X4 641", "Celeron G1820", "Pentium G2020", "Pentium G645", "Core i5-3337U", "Core i7-3517U", "Core i5 680", "Athlon II X4 640", "Core2 Quad Q9450", "Xeon E5440", "Core i5-5250U", "Core2 Quad Q9500", "A10-7700K APU (2014 D.Ka)", "Celeron G1840", "Core i5-2415M", "Core2 Quad Q9505", "A6-3670 APU", "Athlon II X4 635", "Core i7-2637M", "Core i5-3437U", "A10-9700 APU (2016 M.BR)", "Core i7-4550U", "Celeron G1620", "Phenom II X3 720", "Athlon II X4 630", "Core i7-2677M", "A8-7500 APU (2014 M.Ka)", "Core i5-3427U", "Core i5-3317U", "Xeon E5430", "Pentium 4417U", "Pentium 5405U", "Pentium 4415U", "A8-7650K APU (2014 D.Ka)", "Phenom 9950", "Core i3-2370M", "Core i3-5010U", "Xeon E7- 4870", "Athlon II X4 631", "A8-7600 APU (2014 D.Ka)", "A12-9800E APU (2016 M.BR)", "A6-3650 APU", "Core i3-2348M", "Xeon W3505", "Xeon E5462", "Core i7-3689Y", "Phenom 9850", "Xeon E5-2603 0", "Xeon W3503", "Core i5 660", "Core2 Quad Q9400", "Pentium 2020M", "Celeron G1610", "Core2 Extreme Q6850", "Xeon L5420", "Pentium 3550M", "Athlon II X3 460", "Phenom II X2 565", "A10-7860K APU (2014 D.Ka)", "Core i5 661", "Pentium 4405U", "Core i3-2328M", "Core i5 K 655", "Core i3-2350M", "Pentium G640", "A8-9600 APU (2016 D.BR)", "Pentium G630", "Core i3-5015U", "Core i3-5005U", "Phenom II X3 710", "Core2 Quad Q8400", "Core i3-6006U", "Core i5-2557M", "Core i3-2330M", "A10-9700E APU (2016 D.BR)", "FX-770K (2014 D.Ka)", "Athlon II X3 455", "Core2 Extreme Q9300", "Core i3-4030U", "Athlon II X4 620", "Core i3-2310M", "Phenom II X2 560", "Athlon II X3 450", "Core2 Quad Q9300", "Celeron G550", "FX-9830P APU (2016 M.BR)", "Core i5 650", "Phenom II X2 555", "Phenom 9750", "Athlon II X3 445", "A10-6700T APU (2013 D.Ri)", "Celeron G540", "Pentium G620", "A12-9730P APU (2016 M.BR)", "A10-5750M APU", "A8-3800 APU", "Xeon E5420", "A10-7800 APU (2014 D.Ka)", "Pentium B980", "Core i3-4010U", "Athlon II X3 440", "Pentium B970", "Athlon 300U", "Core i3-3227U", "A10-9630P APU (2016 M.BR)", "Core i3 540", "Core2 Quad Q8300", "Core m3-7Y30", "Phenom II X2 550", "Core i3 550", "Core2 Quad Q6700", "Celeron G530", "Athlon II X2 265", "Xeon E5-2660 v2", "Core i3-4005U", "Core i5-7Y54", "Core i5-2467M", "Core i3-3217U", "Phenom 9650", "Athlon II X3 435", "A10-4600M APU", "Phenom II X2 545", "Core i3 530", "Pentium B960", "Athlon II X2 270", "Core2 Quad Q8200", "Ryzen 3 2200U", "Xeon X3220", "Pentium B950", "Core i7-7Y75", "A6-6400K APU", "Athlon 64 X2 Dual Core 6400+", "Phenom 9550", "Celeron 1005M", "A4-6300 APU", "Pentium B940", "A6-3620 APU", "Athlon II X2 B24", "Core2 Quad Q6600", "Core M-5Y10", "A10-5757M APU", "Core2 Duo E8600", "Core M-5Y71", "Core i5-4300Y", "A6-5400K APU", "Athlon II X2 260", "Core m3-6Y30", "Pentium 2127U", "Ryzen 3 3200U", "Core2 Quad", "Core M-5Y10a", "Athlon II X2 255", "A4-6320 APU", "A8-5550M APU", "Pentium 3805U", "Core M-5Y70", "Core i5-4210Y", "Celeron 1000M", "Pentium 2117U", "Athlon II X3 425", "Celeron 1037U", "Athlon II X2 250 (2013 D.Ri)", "Core m5-6Y54", "Core i5-3339Y", "Core m5-6Y57", "Core i7 M 640", "Core M-5Y10c", "A4-5300 APU", "Core i3-2375M", "Core i5-2537M", "Athlon II X2 245", "Core m7-6Y75", "Celeron B830", "Core2 Duo E8500", "Xeon E5405", "Core2 Quad Q9000", "Xeon E3110", "Xeon E5345", "Core i7 M 620", "Phenom II N660", "Core M-5Y51", "A6-3500 APU", "Celeron B820", "Phenom 8650 Triple-Core", "Core i5 M 580", "A4-4000 APU", "Core2 Duo E8400", "Athlon 64 X2 Dual Core 6000+", "Core i5 M 560", "A8-3530MX APU", "Athlon II X2 240", "Core i3-2367M", "A8-4500M APU", "A8-3510MX APU", "Core i5 M 540", "Phenom II N950", "Celeron B815", "Core i3-4012Y", "Core i3-2365M", "FX-9800P APU (2016 M.BR)", "Core2 Extreme X9100", "Core i5 M 480", "Core2 Duo E8300", "A12-9720P APU (2016 M.BR)", "Phenom 9150e", "Athlon X2 240", "Pentium E6700", "A6-7470K APU (2014 D.Ka)", "Core2 Duo E7600", "Pentium E6800", "Celeron 1017U", "Core i5-4202Y", "A10-9620P APU (2016 M.BR)", "Pentium Silver J5005", "Celeron 887", "Core i5 M 460", "Core i5 M 520", "Athlon II X2 220", "Phenom II N930", "Athlon 7850", "Core2 Duo T9800", "Core i5 M 450", "Pentium E6600", "Core2 Duo T9900", "Core2 Duo E8200", "Phenom II N850", "Xeon E5335", "Core i3 M 390", "Core2 Duo P9700", "FX-7600P APU (2014 M.Ka)", "A12-9700P APU (2016 M.BR)", "Core2 Duo E6850", "Phenom 8450 Triple-Core", "Core2 X6800", "Core2 Duo E7500", "Athlon 7750", "Core2 Duo T9600", "Celeron B800", "Pentium G6950", "A8-3520M APU", "Athlon 64 X2 Dual Core 5600+", "Celeron 1007U", "Core i5 M 430", "Core2 Duo T9500", "Pentium E6500", "Core i7 L 640", "Pentium 987", "Celeron 877", "Core i3 M 380", "Core2 6700", "Athlon II X2 215", "A6-7400K APU (2014 D.Ka)", "Celeron 2957U", "Celeron 3205U", "A6-3420M APU", "A6-3410MX APU", "Core i3 M 370", "Phenom II N830", "A6-9500 APU (2016 D.BR)", "A10-5745M APU", "A10-4655M APU", "A10-9600P APU (2016 M.BR)", "Pentium E6300", "Pentium Gold 4415Y", "Core2 Duo T9550", "Core2 Duo E7300", "Core i3-2357M", "Core2 Duo P9500", "Core i3 M 350", "Athlon 64 X2 Dual Core 5400+", "Core2 Duo E6750", "Core2 Duo T9400", "Pentium E5800", "Core2 Duo E7400", "Pentium D 3.73GHz", "A8-3500M APU", "Celeron J4105", "Core2 Duo P8800", "Core2 6600", "Core2 Duo P9600", "A8-5545M APU", "Core2 Duo E7200", "A8-7200P APU (2014 M.Ka)", "Athlon 64 X2 Dual Core 5200+", "Turion II Ultra Mobile M600", "A6-9500E APU (2016 D.BR)", "A6-4400M APU", "Pentium 4410Y", "Core i7 L 620", "A10-7400P APU (2014 M.Ka)", "Core2 Duo T9300", "Phenom II P960", "Pentium J2900", "Pentium Silver N5000", "Core2 Duo P9400", "Core i3 M 330", "A4-4300M APU", "Pentium E5500", "A4-3400 APU", "Opteron 4171 HE", "A6-3400M APU", "Sempron 145", "Core2 Duo T8300", "Pentium N3530", "Pentium 967", "Core2 Duo E6550", "Core2 Duo P9300", "Core2 Duo P8700", "Celeron J1900", "Core2 Duo P8600", "Pentium E5400", "Pentium N3540", "Xeon E5320", "Athlon Dual Core 4850e", "Phenom II P940", "Core2 6420", "Core2 Duo P8400", "Core2 Duo T7700", "Core2 Duo P7570", "Pentium E5300", "Pentium E5700", "Athlon 64 X2 Dual Core 4600+", "A4-3300 APU", "Athlon 5350 APU R3", "Core2 6400", "Celeron E3300", "Athlon II P360", "A9-9430 APU (2016 M.SR)", "Core2 Duo L9400", "Core M-5Y31", "Xeon E5310", "Pentium N3520", "Athlon 64 X2 Dual Core 4800+", "FX-7500 APU (2014 M.Ka)", "Athlon 64 X2 Dual Core 5000+", "A8-4555M APU", "Core2 Duo L9600", "Celeron E3200", "Core2 Duo E4700", "Athlon II P340", "Core2 Duo P7450", "Celeron E3400", "Pentium E5200", "A8-7410 APU (2015 M.Ca)", "Pentium 4405Y", "Core2 Duo P7550", "Turion II Neo N54L", "Atom Z3740D", "Core2 Duo P7350", "Core2 Duo T7500", "A8-6410 APU R5 Graphics", "Core2 Duo T6670", "Celeron N2930", "Core2 Duo T6600", "Core2 Duo T8100", "Athlon II P320", "Core2 6320", "Pentium P6200", "Athlon 64 X2 Dual Core 4400+", "A6-7310 APU (2015 M.Ca)", "Celeron Dual Core T3300", "Athlon Dual Core 4450e", "Sempron 140", "Athlon Dual Core 4450B", "Core2 Duo T7300", "Core2 Duo T6570", "Core2 Duo T6500", "Pentium P6100", "Athlon X2 Dual Core BE-2400", "Pentium T4500", "A4-3300M APU", "Athlon 64 X2 Dual Core 3800+", "Pentium T4400", "Athlon 64 X2 Dual Core 4200+", "A4-7210 APU (2015 M.Ca)", "Celeron N4100", "Core2 6300", "Pentium T4200", "A4-3330MX APU", "Pentium T4300", "Core2 Duo E4600", "Core2 Duo T6400", "Core2 Duo T5870", "Athlon LE-1640", "Pentium Dual E2200", "Turion II Mobile M500", "Celeron Dual Core T3100", "A9-9410 APU (2016 M.SR)", "Core2 Duo T5800", "Pentium J4205", "A9-9420 APU (2016 M.SR)", "Core2 T7600", "V140", "A10-7300 APU (2014 M.Ka)", "Core2 Duo T7250", "Core2 Duo T5900", "Core2 Duo T5670", "Pentium N4200", "Core2 Duo E4400", "Celeron 847", "Core2 Duo E4500", "Core2 Duo T7100", "Core2 4400", "Athlon II M320", "A9-9425 APU (2016 M.SR)", "Core2 Duo L9300", "A8-7100 APU (2014 M.Ka)", "Pentium Dual E2180", "V120", "Pentium Dual T3400", "Core2 Duo L7500", "Pentium N3510", "Athlon 64 3400+", "Core2 T7400", "Athlon 64 3000+", "Pentium Dual E2160", "Core2 Duo T5850", "Atom Z3775", "Core2 Duo T5750", "A4-3305M APU", "Core2 4300", "Turion X2 Ultra Mobile ZM-82", "Turion 64 X2 Mobile Technology TL-60", "A6-4455M APU", "Core2 Duo U9600", "Core2 T7200", "Core2 Duo U9400", "A6-5200 APU", "Pentium Dual T3200", "Athlon 64 X2 Dual Core 3600+", "Athlon 64 4000+", "A6-9220 APU (2016 M.SR)", "Athlon 64 3500+", "Pentium D 3.40GHz", "Athlon 64 3800+", "Celeron N2920", "A6-9210 APU (2016 M.SR)", "Celeron J3455", "T2500", "A4-4355M APU", "A9-9400 APU (2016 M.SR)", "T2600", "Core2 Duo T5550", "Athlon 64 X2 Dual Core 4000+", "Core2 Duo T5450", "A4-9120 APU (2016 M.SR)", "Athlon II M300", "Pentium Dual E2140", "Atom Z3770", "Turion 64 X2 Mobile Technology TL-58", "Celeron N2840", "T2400", "Turion 64 Mobile Technology ML-32", "Core2 T5500", "Pentium D 3.20GHz", "Pentium 4 3.80GHz", "T2300", "A4-6210 APU R3 Graphics", "Core2 T5600", "E2-7110 APU (2015 M.Ca)", "2140", "Athlon 64 3200+", "A6-9200 APU (2016 M.SR)", "Celeron N2830", "Celeron N3450", "U7300", "E2-3000M APU", "Celeron 900", "Core2 Duo T5250", "Pentium 4 3.40GHz", "T2080", "Celeron E1500", "Atom Z3740", "Core2 Duo L7100", "Pentium D 3.00GHz", "Pentium 4 3.20GHz", "T2250", "Turion 64 X2 Mobile Technology TL-56", "Turion II Neo N40L", "Celeron E1400", "Core i3 U 380", "Turion 64 X2 Mobile Technology TL-52", "U2300", "Celeron J4005", "U4100", "Core2 T5300", "Pentium Dual T2370", "Turion X2 Dual-Core Mobile RM-70", "Pentium D 2.80GHz", "Core Duo T2350", "Core i5 U 470", "Celeron N3160", "E2-9010 APU (2016 M.SR)", "Pentium N3700", "E2-9000 APU (2016 M.SR)", "Core2 T5200", "Atom x7-Z8700", "Pentium Dual T2390", "AthlonX2 DualCore QL-60", "575", "Core i3 U 330", "Athlon X2 Dual-Core QL-65", "Pentium 4 3.00GHz", "Pentium Dual T2310", "Pentium Dual T2330", "A4-5000 APU", "Sempron 3400+", "Celeron N2820", "Pentium N3710", "Celeron N3150", "Atom x7-Z8750", "E-350D APU", "A6-7000 APU (2014 M.Ka)", "Celeron N2815", "Celeron N4000", "Athlon X2 Dual-Core QL-64", "Pentium M processor 1.86GHz", "Athlon 64 X2 Dual Core TK-55", "Pentium 4 2.80GHz", "Atom x5-Z8550", "Athlon X2 Dual Core BE-2300", "Athlon Neo X2 Dual Core L335", "Pentium M processor 1.73GHz", "Sempron 3600+", "Atom x5-Z8330", "E-450 APU", "E2-9000e APU (2016 M.SR)", "E2-1800 APU (2012 M.Za)", "Atom x5-Z8500", "Atom D2700", "E-350", "E2-2000 APU (2012 M.Za)", "Celeron 723", "Atom N2800", "Celeron J3355", "Athlon 64 X2 Dual Core TK-53", "Pentium 4 2.60GHz", "Sempron 2800+", "Sempron 3000+", "Pentium D 2.66GHz", "Athlon Neo MV-40", "Celeron N3010", "Pentium 4 2.93GHz", "Athlon 2650e", "Pentium 4 3.06GHz", "Atom x5-Z8300", "Pentium M processor 1.60GHz", "Celeron M 430", "E1-1200 APU", "Celeron N3350", "Celeron N3000", "Atom x5-Z8350", "C-60 APU", "E-300 APU", "Atom D525", "Pentium 4 2.40GHz", "E1-7010 APU (2015 M.Ca)", "Pentium 4 2.66GHz", "E1-2500 APU", "Atom N570", "Atom N2600", "Celeron N3060", "Celeron N3050", "Atom 330", "Celeron 2.80GHz", "Atom N550", "Celeron M processor 1.50GHz", "C-50", "Atom N450", "Atom N435", "Atom N455", "Atom D410", "Atom D510", "Atom N280", "Celeron D 3.06GHz", "Z-60 APU", "Atom N270", "Atom 230", "E1-2100 APU", "Phenom 9600", "Atom Z520", "Atom Z2760", "A4-1250 APU", "A4-1200 APU", "Phenom 9500" };
-  
-  
-  String vga = grafis;
- int graf = -1;
-for (int i=0;i<gpu.length;i++) {
-    if (gpu[i].equalsIgnoreCase(vga)) {
-        graf = i;               
-    }
-}
-
-String procie = prosesor;
- int otak = -1;
-for (int i=0;i<cpu.length;i++) {
-    if (cpu[i].equalsIgnoreCase(procie)) {
-        otak = i;               
-    }
-}
-    //firewatch
-    boolean fire;
-if (ram>5 && otak<712 && graf<754 ){fire=true;}
-    else {fire=false;};
-    
-    //life is strange series
-    boolean lis;
-if (ram>5 && otak<236 && graf<359 ){lis=true;}
-    else {lis=false;};
-    
-    //mark of the ninja
-    boolean motn;
-if (ram>3 && otak<852 && graf<874 ){motn=true;}
-    else {motn=false;};
-    
-    //minecraft bedrock
-    boolean bedrock;
-if (ram>3 && otak<920 && graf<947 ){bedrock=true;}
-    else {bedrock=false;};
-    
-    //pes 2020
-    boolean pes20;
-if (ram>7 && otak<189 && graf<513 ){pes20=true;}
-    else {pes20=false;};
-    
-    //fifa 20
-    boolean fifa20;
-if (ram>7 && otak<210 && graf<495 ){fifa20=true;}
-    else {fifa20=false;};
-    
-    //valorant
-    boolean val;
-if (ram>7 && otak<384 && graf<830 ){val=true;}
-    else {val=false;};
-    
-    //silent age
-    boolean age;
-if (ram>3 && otak<712 && graf<737 ){age=true;}
-    else {age=false;};
-    
-    //lifeless planet
-    boolean lp;
-if (ram>2 && otak<712 && graf<763 ){lp=true;}
-    else {lp=false;};  
- if (fire){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(firewatch);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if(lis){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(LIS);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (motn){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(mark);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (bedrock){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Bedrock);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (pes20){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(pes);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (fifa20){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(fifa);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (val){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(valorant);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else if (age){
-            recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(silent);
-    recpanel.repaint();
-    recpanel.revalidate();
-            }
-    else if (lp){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(planet);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    else {
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(cs16);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
-    }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
@@ -3776,25 +3480,14 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
         // TODO add your handling code here:
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(portal);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }//GEN-LAST:event_jButton20ActionPerformed
-
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        // TODO add your handling code here:
-        recpanel.removeAll();
+    recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
     
     recpanel.add(paper);
     recpanel.repaint();
     recpanel.revalidate();
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
@@ -4013,15 +3706,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.repaint();
     recpanel.revalidate();
     }
-    else if (rust){
-        recpanel.removeAll();
-    recpanel.repaint();
-    recpanel.revalidate();
-    
-    recpanel.add(Rust);
-    recpanel.repaint();
-    recpanel.revalidate();
-    }
+   
     else if (fire){
         recpanel.removeAll();
     recpanel.repaint();
@@ -4152,7 +3837,6 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Bedrock;
     private javax.swing.JPanel LIS;
-    private javax.swing.JPanel Rust;
     private javax.swing.JPanel atas;
     private javax.swing.JPanel bawah;
     private javax.swing.JPanel bodypanel;
@@ -4178,7 +3862,6 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
@@ -4190,10 +3873,8 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
@@ -4206,7 +3887,6 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
@@ -4218,8 +3898,25 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -4230,7 +3927,6 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     private javax.swing.JPanel paper;
     private javax.swing.JPanel pes;
     private javax.swing.JPanel planet;
-    private javax.swing.JPanel portal;
     private javax.swing.JPanel pubeg;
     private javax.swing.JTextField random;
     private javax.swing.JPanel rdr2;
