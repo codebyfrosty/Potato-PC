@@ -1158,8 +1158,10 @@ public void info (String apa) {JOptionPane.showMessageDialog(this, apa);}
 
     private void checkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkActionPerformed
         // TODO add your handling code here:
- 
-        
+ if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }  
+ else {    
         
         bawah.removeAll();
     bawah.repaint();
@@ -1415,14 +1417,15 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.add(cs16);
     recpanel.repaint();
     recpanel.revalidate();
-    }
-    
-    
-    
+    }    
+ }    
     }//GEN-LAST:event_checkActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -1662,6 +1665,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     } 
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -1888,6 +1894,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -2100,6 +2109,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -2297,6 +2309,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
+        if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -2480,6 +2495,9 @@ if (frst){
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
+        if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -2649,6 +2667,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -2798,7 +2819,10 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         // TODO add your handling code here:
-         int ram = Integer.parseInt(this.random.getText());
+        if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     } 
+        int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
     
@@ -2933,6 +2957,9 @@ if (motn){
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -3054,7 +3081,10 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-         int ram = Integer.parseInt(this.random.getText());
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
+        int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
     
@@ -3165,6 +3195,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         // TODO add your handling code here:
+       if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -3257,7 +3290,10 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-int ram = Integer.parseInt(this.random.getText());
+if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
+        int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
     
@@ -3338,6 +3374,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
+   if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -3403,6 +3442,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
+     if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -3454,7 +3496,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:
-        
+   if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }     
 
    
         recpanel.removeAll();
@@ -3469,6 +3513,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
+     if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
@@ -3480,7 +3527,10 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
         // TODO add your handling code here:
-    recpanel.removeAll();
+   if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
+        recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
     
@@ -3491,6 +3541,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
+    if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
@@ -3502,6 +3555,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
         // TODO add your handling code here:
+      if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
@@ -3513,6 +3569,9 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
         // TODO add your handling code here:
+    if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }
         recpanel.removeAll();
     recpanel.repaint();
     recpanel.revalidate();
@@ -3528,6 +3587,10 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         // TODO add your handling code here:
+         if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }    
+         else{
         int ram = Integer.parseInt(this.random.getText());
     String grafis=(String)gpu.getSelectedItem();
     String prosesor=(String)cpu.getSelectedItem();
@@ -3536,13 +3599,18 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
         i.setGPU(grafis);
         i.setCPU(prosesor);
         i.setRAM(ram);
-          
+    
         about("Prosesor mu adalah " +i.getCPU()+ ", kartu grafismu " + i.getGPU() + ", dan kamu punya RAM "+ i.getRAM() + "GB ");
     }//GEN-LAST:event_jButton27ActionPerformed
-
+    }
     private void tombolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tombolActionPerformed
+
         // TODO add your handling code here:
-         bawah.removeAll();
+if (random.getText().equals("")){
+         JOptionPane.showMessageDialog(null, "isi dulu kolom ram dengan jumlah ram yang kamu punya!\nkesalahan");
+     }  
+else {    
+        bawah.removeAll();
     bawah.repaint();
     bawah.revalidate();
     
@@ -3798,7 +3866,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     recpanel.revalidate();
     }
     }//GEN-LAST:event_tombolActionPerformed
-
+    }
     /**
      * @param args the command line arguments
      */
