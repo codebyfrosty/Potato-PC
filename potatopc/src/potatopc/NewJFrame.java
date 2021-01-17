@@ -3582,7 +3582,7 @@ if (ram>2 && otak<712 && graf<763 ){lp=true;}
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
- about("Developed by Hilmi Ahmad (21120119130048)\nArray CPU dan GPU diurutkan berdasarkan nilai benchmark yang didapat dari\nhttps://www.userbenchmark.com/page/developer\nSystem requirement didapat dari steam dan website dari game-game yang ditampilkan disini.\n\n\nnote: System req yang digunakan untuk program ini lebih tinggi dari minimum req agar user mendapat rekomendasi\ngame yang benar-benar lancar dalam sistem milik user\n\ncpu logo credited to Those Icon\ngpu logo credited to prettycons\nram logo credited to Smashicons");     
+ about("Developed by Hilmi Ahmad (211***********)\nArray CPU dan GPU diurutkan berdasarkan nilai benchmark yang didapat dari\nhttps://www.userbenchmark.com/page/developer\nSystem requirement didapat dari steam dan website dari game-game yang ditampilkan disini.\n\n\nnote: System req yang digunakan untuk program ini lebih tinggi dari minimum req agar user mendapat rekomendasi\ngame yang benar-benar lancar dalam sistem milik user\n\ncpu logo credited to Those Icon\ngpu logo credited to prettycons\nram logo credited to Smashicons");     
     }//GEN-LAST:event_jButton25ActionPerformed
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
